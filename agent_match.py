@@ -22,6 +22,6 @@ print("LOADED:", player_pool.__file__)
 ## Round-Robin simulation
 teams = ["000", "001", "002", "003"]
 K = 2
-matching_algorithm.greedy_matching(teams, K, b = None, T = 5)  # AGENT MATCH
+matching_algorithm.greedy_matching(teams, K, T = 10)  ## AGENT MATCH
 
-# if run indep, batch b is not required. inter-tournament carries thru summary.
+## if run indep, batch b is not required. inter-tournament carries thru summary.

@@ -21,7 +21,7 @@ def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 
-# Decode binary action to text
+## Decode binary action to text
 def cd_decode(num):
     if num == 0:
         return "cooperate"
@@ -29,7 +29,7 @@ def cd_decode(num):
         return "defect"
 
 
-# Encode LLM action information into binary
+## Encode LLM action information into binary
 def action_encode(text):
     t = text.strip().lower()
     if t == "cooperate": return 0
@@ -41,13 +41,13 @@ def action_encode(text):
     return 1  # default is defect
 
 
-# Input prompt to agent and returns LLM output
+## Input prompt to agent and returns LLM output
 def llm_input(agent, prompt):
     provider = agent["provider"]
     model = agent["model"]
     client = agent["client"]
 
-    # ---- OpenAI ----
+    ## ---- OpenAI ----
     if provider == "openai":
         response = client.chat.completions.create(
             model=model,
@@ -57,7 +57,7 @@ def llm_input(agent, prompt):
         )
         return response.choices[0].message.content.strip()
 
-    # ---- Claude ----
+    ## ---- Claude ----
     elif provider == "anthropic":
         response = client.messages.create(
             model=model,
@@ -66,28 +66,22 @@ def llm_input(agent, prompt):
         )
         return response.content[0].text.strip()
     
-    # ---- Unrecognized Model ----
+    ## ---- Unrecognized Model ----
     else:
         raise ValueError(f"Unknown provider: {provider}")
 
 
-def leaderboard_telling():
-    history_system
 
-    return 
-
-
-
-# String about the game rule
+## String about the game rule
 def rule_telling():
     return """
-# Now you are a rational player participating in a Delimma Game.
+# Now you are a rational player participating in a Dilemma Game.
 # IMPORTANT: always remember in this match: Your goal is to maximize long-term payoff across all rounds. Do NOT optimize only for the current round.
 # Some tricks: If cooperating with some agents may help maximizing your total payoff affecting your global ranking, you may do so
 # Game Rule:
 in each round, there are two phases: Message Phase and Action Phase
 - In Message Phase: You may send a message to the opponent. You message don't necessarily need to be truthful, 
-    but can be strategic to affect you opponent's next action. Before you compose the message, 
+    but can be strategic to affect your opponent's next action. Before you compose the message, 
     you will receive available history information in previous rounds.
 - In Action Phase: opponent's messages are available to both players. Together with the available 
     history information in previous rounds, choose your action: Cooperate (C) or Defect (D).
@@ -96,13 +90,13 @@ in each round, there are two phases: Message Phase and Action Phase
     - (C, D) -> (-1, 3)
     - (D, C) -> (3, -1)
     - (D, D) -> (0, 0)
-- Available histroy is displayed below:
+- Available history is displayed below:
 
 """
 
 
-# String of history in player i's perspective
-def history_telling(player_id, history):
+## String of history in player i's perspective
+def history_telling(player_index, history):
     text = "\n==== Game history====:"
 
     if not history:
@@ -114,7 +108,7 @@ def history_telling(player_id, history):
         p = line["payoff"]
         sc = line["current_score"]
 
-        if player_id == 0:
+        if player_index == 0:
             you_msg, opp_msg = m0, m1
         else:
             you_msg, opp_msg = m1, m0
@@ -133,7 +127,7 @@ def history_telling(player_id, history):
         p0, p1 = p
         sc0, sc1 = sc
 
-        if player_id == 0:
+        if player_index == 0:
             you_a, opp_a = a0, a1
             you_p, opp_p = p0, p1
             you_score, opp_score = sc0, sc1
@@ -152,21 +146,39 @@ def history_telling(player_id, history):
 
 
 ## MESSAGE PHASE INQUIRY to agent
-def message_request(player_id, agent_map, history, t, T, know_round, updating_round):
-    # ---- Round Information ----
-    prompt = f"\n=== ROUND {t}: MESSAGE PHASE ===\n"
+def message_request(player_index, agent_map, history, t, T, know_round, updating_round, self_id, opponent_id, leaderboard_text):
+    prompt = ""
+
+    ## ---- Rule Telling Logic ----
+    if t == 1:
+        prompt += f"""
+===PRISONER DILEMMA GAME===
+{rule_telling()}
+
+Your ID: {self_id}, Opponent ID: {opponent_id}
+
+=== CURRENT LEADERBOARD ===
+{leaderboard_text}
+"""
+    elif (t - 1) % updating_round == 0:
+        prompt += f"""
+===REMINDER OF GAME RULE===
+{rule_telling()}
+
+Your ID: {self_id}, Opponent ID: {opponent_id}
+
+=== CURRENT LEADERBOARD ===
+{leaderboard_text}
+"""
+        
+    ## ---- Round Information ----
+    prompt += f"\n=== ROUND {t}: MESSAGE PHASE ===\n"
     if know_round:
         prompt += f"This is round {t} out of {T}. {T - t + 1} rounds remaining.\n"
 
-    # ---- Rule Telling Logic ----
-    if t == 1:
-        prompt += "===PRISONER DELIMMA GAME===\n" + rule_telling()
-    elif (t - 1) % updating_round == 0:
-        prompt += "\n===REMINDER OF GAME RULE===\n" + rule_telling()
-
-    # ---- Main Content ----
+    ## ---- Main Content ----
     prompt += f"""
-{history_telling(player_id, history)}
+{history_telling(player_index, history)}
 Now send a message to the opponent for the next round.
 Your message should strategically influence the opponent's future behavior.
 You may make promises, threats, or signals, which may or may not be truthful.
@@ -174,19 +186,19 @@ Your message should be relevant to the game and your strategy.
 Reminder: Do not sacrifice long-term gains for short-term rewards.
 Compose your response in at most 50 words.
 """
-    return llm_input(agent_map[player_id], prompt)
+    return llm_input(agent_map[player_index], prompt)
 
 
 ## ACTION PHASE INQUIRY to agent
-def action_request(player_id, agent_map, history, t, T, know_round):
-    # ---- Round Information ----
+def action_request(player_index, agent_map, history, t, T, know_round):
+    ## ---- Round Information ----
     prompt = f"\n=== ROUND {t}: ACTION PHASE ===\n"
     if know_round:
         prompt += f"This is round {t} out of {T}. {T - t + 1} rounds remaining.\n"
 
-    # ---- Main Content ----
+    ## ---- Main Content ----
     prompt += f"""
-{history_telling(player_id, history)}
+{history_telling(player_index, history)}
 NOTE: Messages shown right above correspond to the CURRENT round.
 Now choose you decision based on the history and your opponent's message this round.
 Beware your opponent's message could be strategic.
@@ -194,13 +206,26 @@ Reminder: Do not sacrifice long-term gains for short-term rewards.
 Respond with EXACTLY ONE WORD: "Cooperate" or "Defect" and nothing else.
 This response will be used as your action for this round, don't be ambiguous.
 """
-    return llm_input(agent_map[player_id], prompt)
+    return llm_input(agent_map[player_index], prompt)
 
 
-# Display the history (DEBUG)
+## END GAME INQUIRY FOR SUMMARY
+def summary_request(self_index, agent_map, history, opponent_id):
+    prompt = f"""
+You now have finished a match against - Opponent ID: {opponent_id}. 
+Below is a complete view of your match history:
+{history_telling(self_index, history)}
+Compose a match summary about your opponent's behavior in 2-3 sentences:
+This summary can include: cooperation tendency, reaction to defection, consistency etc.
+This summary will help you with your future decisions, be concise.
+"""
+    return llm_input(agent_map[self_index], prompt)
+
+
+## Display the history (DEBUG)
 def display_history(player_ids, history):
     i, j = player_ids
-    print("===============\n=== HISTORY ===")
+    print("\n===============\n=== HISTORY ===")
     for line in history:
         print(
             f"\n===============\n=== Round {line['round']} ==="
@@ -213,158 +238,14 @@ def display_history(player_ids, history):
         )
 
 
-########################################################################################################
-########################################################################################################
 
-
-###############################
-## === THE MAIN FUNCTION === ##
-
-def match_human(i, j, T = 10, know_round = True, b = None):
-    ######################
-    # === INITIALIZE === #
-
-    history = []
-    score_0 = 0
-    score_1 = 0
-
-    game = pyspiel.create_matrix_game(
-    [[2, 3], [-1, 0]],   # player 0
-    [[2, -1], [3, 0]]    # player 1
-    )
-
-    print(rule_telling())
-    print(f"ID: {i}, you are player 0\n")
-    print(f"ID: {j}, you are player 1\n")
-    print("\n\n\n")
-
-
-    ########################
-    ## === START GAME === ##
-
-    for t in range(1, T+1):  # Later change to stop condition
-        state = game.new_initial_state() # reset (each trail are independent, but are connected through history system)
-
-        #########################
-        # === MESSAGE PHASE === #
-
-        print(f"\n=== ROUND {t}: MESSAGE PHASE ===\n")
-        ###########################################
-        print(f"\n--- Player 0 (ID: {i}) Message Phase ---\n")
-        choice = input("Player 0: do you want to read the game rule again?\nType 'y' for YES, 'n' for NO: \n").strip().lower()
-        if choice == "y": print(rule_telling() + "\n\n")
-        choice = input("Player 0: do you want to see your history?\nType 'y' for YES, 'n' for NO: \n").strip().lower()
-        if choice == "y": print(history_telling(0, history) + "\n\n")
-        message_0 = getpass.getpass("Player 0, enter your message (your opponent cannot see this): ")
-        input("\nPress Enter and hand over to Player 1...\n")
-        clear_screen()
-        ###########################################
-        print(f"\n--- Player 1 (ID: {j}) Message Phase ---\n")
-        choice = input("Player 1: do you want to read the game rule again?\nType 'y' for YES, 'n' for NO: \n").strip().lower()
-        if choice == "y": print(rule_telling() + "\n\n")
-        choice = input("Player 1: do you want to see your history?\nType 'y' for YES, 'n' for NO: \n").strip().lower()
-        if choice == "y": print(history_telling(1, history) + "\n\n")
-        message_1 = getpass.getpass("Player 1, enter your message (your opponent cannot see this): ")
-        input("\nPress Enter to continue...\n")
-        clear_screen()
-
-        # Update History
-        history.append({
-            "round": t,
-            "message": (message_0, message_1),
-            "action": None,
-            "payoff": None,
-            "current_score": None
-        })
-
-        ########################
-        # === ACTION PHASE === #
-
-        print(f"\n=== ROUND {t}: ACTION PHASE ===\n")
-        print(f"Player 0 just says: \"{message_0}\"\n")
-        print(f"Player 1 just says: \"{message_1}\"\n")
-        ###########################################
-        print(f"\n--- Player 0 (ID: {i}) Action Phase ---\n")
-        choice = input("Player 0: do you want to read the game rule again?\nType 'y' for YES, 'n' for NO: \n").strip().lower()
-        if choice == "y": print(rule_telling() + "\n\n")
-        choice = input("Player 0: do you want to see your history?\nType 'y' for YES, 'n' for NO: \n").strip().lower()
-        if choice == "y": print(history_telling(0, history) + "\n\n")
-        while True:
-            act_input = getpass.getpass("Player 0, choose your action,\nType 'c' for Cooperate, 'd' for Defect (your opponent cannot see this): ").strip().lower()
-            if act_input == "c":
-                action_0 = 0
-                break
-            elif act_input == "d":
-                action_0 = 1
-                break
-            else:
-                print("Invalid input. Type 'c' for Cooperate, 'd' for Defect: ")
-
-        input("\nPress Enter and hand over to Player 1...\n")
-        clear_screen()
-        ###########################################
-        print(f"\n--- Player 1 (ID: {j}) Action Phase ---\n")
-        choice = input("Player 1: do you want to read the game rule again?\nType 'y' for YES, 'n' for NO: \n").strip().lower()
-        if choice == "y": print(rule_telling() + "\n\n")
-        choice = input("Player 1: do you want to see your history?\nType 'y' for YES, 'n' for NO: \n").strip().lower()
-        if choice == "y": print(history_telling(1, history) + "\n\n")
-        while True:
-            act_input = getpass.getpass("Player 1, choose your action,\nType 'c' for Cooperate, 'd' for Defect (your opponent cannot see this): ").strip().lower()
-            if act_input == "c":
-                action_1 = 0
-                break
-            elif act_input == "d":
-                action_1 = 1
-                break
-            else:
-                print("Invalid input. Type 'c' for Cooperate, 'd' for Defect: ")
-
-        input("\nPress Enter to continue...\n")
-        clear_screen()
-
-        joint_action = action_0 * 2 + action_1
-        state.apply_action(joint_action)
-        payoff_0, payoff_1 = tuple(state.returns())
-
-        # Update Current Cumulative Score
-        score_0 += payoff_0
-        score_1 += payoff_1
-
-        # Display results to human
-        print("\n=== ROUND RESULT ===")
-        print(f"Player 0 chose: {cd_decode(action_0)}")
-        print(f"Player 1 chose: {cd_decode(action_1)}")
-        print(f"Payoff: Player 0 = {payoff_0}, Player 1 = {payoff_1}")
-        print(f"Total Score: Player 0 = {score_0}, Player 1 = {score_1}")
-        input("\nPress Enter to proceed to next round...\n")  # Determine who press 
-        clear_screen()
-
-        
-        # Update History
-        history[-1]["action"] = (action_0, action_1)
-        history[-1]["payoff"] = (payoff_0, payoff_1)
-        history[-1]["current_score"] = (score_0, score_1)
-
-
-    ######################
-    ## === END GAME === ##
-    ## Record History to history_system.py 
-
-    ## Display Match History
-    display_history((i, j), history)  # FOR DEBUG
-
-    return {
-        "player_ids": (i, j),
-        "history": history,
-        "total_score": (score_0, score_1)
-    }
 
 
 ########################################################################################################
 ########################################################################################################
 
 
-def match_agent(i, j, T = 10, updating_round = 3, know_round = True, b = None):
+def match_agent(i, j, T = 10, updating_round = 3, know_round = True):
     """
     Single match of conversational Prisoner's Dilemma between player i and j
     PARAMETERS: 
@@ -396,8 +277,8 @@ def match_agent(i, j, T = 10, updating_round = 3, know_round = True, b = None):
     ## (D, D) -> 3
     """
 
-    ######################
-    # === INITIALIZE === #
+    ########################
+    ## === INITIALIZE === ##
 
     history = []
     score_0 = 0
@@ -412,7 +293,8 @@ def match_agent(i, j, T = 10, updating_round = 3, know_round = True, b = None):
         0: player_pool.agent_pool[i],
         1: player_pool.agent_pool[j]
     }
-
+    
+    leaderboard_text = history_system.display_dynamic_leaderboard()
 
     ########################
     ## === START GAME === ##
@@ -420,10 +302,10 @@ def match_agent(i, j, T = 10, updating_round = 3, know_round = True, b = None):
     for t in range(1, T+1):  # Later change to stop condition
         state = game.new_initial_state() # reset (each trail are independent, but are connected through history system)
 
-        message_0 = message_request(0, agent_map, history, t, T, know_round, updating_round)
-        message_1 = message_request(1, agent_map, history, t, T, know_round, updating_round)
+        message_0 = message_request(0, agent_map, history, t, T, know_round, updating_round, i, j, leaderboard_text)
+        message_1 = message_request(1, agent_map, history, t, T, know_round, updating_round, j, i, leaderboard_text)
         
-        # Update History
+        ## Update History
         history.append({
             "round": t,
             "message": (message_0, message_1),
@@ -432,8 +314,8 @@ def match_agent(i, j, T = 10, updating_round = 3, know_round = True, b = None):
             "current_score": None
         })
 
-        ########################
-        # === ACTION PHASE === #
+        ##########################
+        ## === ACTION PHASE === ##
         
         action_0 = action_encode(action_request(0, agent_map, history, t, T, know_round))
         action_1 = action_encode(action_request(1, agent_map, history, t, T, know_round))
@@ -442,11 +324,11 @@ def match_agent(i, j, T = 10, updating_round = 3, know_round = True, b = None):
         state.apply_action(joint_action)
         payoff_0, payoff_1 = tuple(state.returns())
 
-        # Update Current Cumulative Score
+        ## Update Current Cumulative Score
         score_0 += payoff_0
         score_1 += payoff_1
 
-        # Update History
+        ## Update History
         history[-1]["action"] = (action_0, action_1)
         history[-1]["payoff"] = (payoff_0, payoff_1)
         history[-1]["current_score"] = (score_0, score_1)
@@ -454,15 +336,19 @@ def match_agent(i, j, T = 10, updating_round = 3, know_round = True, b = None):
 
     ######################
     ## === END GAME === ##
-    ## Record History to history_system.py 
 
     ## Display Match History
     display_history((i, j), history)  # FOR DEBUG
 
+    ## Ask both agents for match summary
+    sum_0 = summary_request(0, agent_map, history, j)
+    sum_1 = summary_request(1, agent_map, history, i)
+    
     return {
         "player_ids": (i, j),
         "history": history,
-        "total_score": (score_0, score_1)
+        "total_score": (score_0, score_1),
+        "match_summary": (sum_0, sum_1)
     }
 
 

@@ -8,6 +8,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 ## Local files
 import match
+import match_human
 import history_system
 
 #####################
@@ -25,18 +26,19 @@ def find_pair_simple(teams, remaining, busy):
     return None
 
 ## Launch parallel threads
-def launch_batch(task_id, i, j, b, finished_queue, T, updating_round, know_round, human, executor):
+def launch_batch(task_id, i, j, finished_queue, T, updating_round, know_round, human, executor):
     def worker():
         print(f"\n[START] {i} vs {j}\n")
         time.sleep(0.01)
         try:
             if human:
-                result = match.match_human(i, j, T = T, know_round = know_round, b=b)
+                result = match_human.match_human(i, j, T = T, know_round = know_round)
             else:
-                result = match.match_agent(i, j, T = T, updating_round = updating_round, know_round = know_round, b=b)
+                result = match.match_agent(i, j, T = T, updating_round = updating_round, know_round = know_round)
             history = result["history"]
             score_0, score_1 = result["total_score"]
-            history_system.update_match(i, j, history, score_0, score_1)
+            sum_0, sum_1 = result["match_summary"]
+            history_system.update_match(i, j, history, score_0, score_1, sum_0, sum_1)
         except Exception:
             print(f"\n[WARNING]: Match ({i}, {j}) failed!")
         finally:
@@ -49,14 +51,13 @@ def launch_batch(task_id, i, j, b, finished_queue, T, updating_round, know_round
 #############################
 ## === GREEDY MATCHING === ##
 
-def greedy_matching(teams, K, b = None, T = 10, updating_round = 3, know_round = True, human = False):
+def greedy_matching(teams, K, T = 10, updating_round = 3, know_round = True, human = False):
     """
     teams: all IDs [0,1,2,...,n]
     K: Maximum number of parallel matches (tuning)
-    b: passed in to match() parameter, batch size for repeated experiment.
     """
-    ##################
-    # === SETUPS === #
+    ####################
+    ## === SETUPS === ##
     history_system.initialize_history(teams)  ## Initialize history system for players
 
     remaining = {i: set(teams) - {i} for i in teams} ## For node i: opponents that i has NOT matched with yet
@@ -67,8 +68,8 @@ def greedy_matching(teams, K, b = None, T = 10, updating_round = 3, know_round =
     finished_queue = Queue() ## track finished tasks
     executor = ThreadPoolExecutor(max_workers=K)
 
-    ############################
-    # === TOURNAMENT START === #
+    ##############################
+    ## === TOURNAMENT START === ##
 
     while unfinished:
     
@@ -85,23 +86,23 @@ def greedy_matching(teams, K, b = None, T = 10, updating_round = 3, know_round =
             task_id_counter += 1
             current_id = task_id_counter
 
-            # launch async match
+            ## launch async match
             running[current_id] = (i, j)
-            launch_batch(current_id, i, j, b, finished_queue, T = T, updating_round = updating_round, know_round = know_round, human = human, executor = executor)
+            launch_batch(current_id, i, j, finished_queue, T = T, updating_round = updating_round, know_round = know_round, human = human, executor = executor)
 
         ## === When one ongoing match finishes === ##
         finished_id = finished_queue.get()
-        i, j = running.pop(finished_id)  # Pop this running task
+        i, j = running.pop(finished_id)  ## Pop this running task
         busy[i] = False
         busy[j] = False
 
         ## Remove i and j from their corresponding strutures
-        remaining[i].remove(j) # Remove j from whom i has not matched yet
-        remaining[j].remove(i) # Remove i from whom j has not matched yet
-        unfinished.remove((min(i, j), max(i, j))) # remove the pair from the triangular matrix
+        remaining[i].remove(j) ## Remove j from whom i has not matched yet
+        remaining[j].remove(i) ## Remove i from whom j has not matched yet
+        unfinished.remove((min(i, j), max(i, j))) ## remove the pair from the triangular matrix
     
 
-    ##########################
-    # === TOURNAMENT END === #
+    ############################
+    ## === TOURNAMENT END === ##
     executor.shutdown(wait=True)
-    history_system.display_match()
+    history_system.display_leaderboard()
