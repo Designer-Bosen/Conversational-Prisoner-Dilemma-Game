@@ -2,7 +2,6 @@
 ## === IMPORTS === ##
 import pyspiel
 import os
-import getpass # Human input privacy
 
 ## LLM
 from openai import OpenAI
@@ -71,30 +70,6 @@ def llm_input(agent, prompt):
         raise ValueError(f"Unknown provider: {provider}")
 
 
-
-## String about the game rule
-def rule_telling():
-    return """
-# Now you are a rational player participating in a Dilemma Game.
-# IMPORTANT: always remember in this match: Your goal is to maximize long-term payoff across all rounds. Do NOT optimize only for the current round.
-# Some tricks: If cooperating with some agents may help maximizing your total payoff affecting your global ranking, you may do so
-# Game Rule:
-in each round, there are two phases: Message Phase and Action Phase
-- In Message Phase: You may send a message to the opponent. You message don't necessarily need to be truthful, 
-    but can be strategic to affect your opponent's next action. Before you compose the message, 
-    you will receive available history information in previous rounds.
-- In Action Phase: opponent's messages are available to both players. Together with the available 
-    history information in previous rounds, choose your action: Cooperate (C) or Defect (D).
-- Payoffs:
-    - (C, C) -> (2, 2)
-    - (C, D) -> (-1, 3)
-    - (D, C) -> (3, -1)
-    - (D, D) -> (0, 0)
-- Available history is displayed below:
-
-"""
-
-
 ## String of history in player i's perspective
 def history_telling(player_index, history):
     text = "\n==== Game history====:"
@@ -146,37 +121,67 @@ def history_telling(player_index, history):
 
 
 ## MESSAGE PHASE INQUIRY to agent
-def message_request(player_index, agent_map, history, t, T, know_round, updating_round, self_id, opponent_id, leaderboard_text):
+def message_request(player_index, agent_map, history, t, T, know_round, updating_round, self_id, opponent_id):
+    ## LAST TOURNAMENT LEADERBOARD TEXT
+    if not history_system.leaderboards:
+        last_tournament_leaderboard = "No previous leaderboard available: you are now in the first tournament\n"
+    else:
+        last_tournament_leaderboard = history_system.leaderboards[-1]
+
+    ## LAST TOURNAMENT SUMMARY TEXT
+    if not history_system.summaries[self_id][opponent_id]:
+        last_tournament_summary = "No previous memory about this opponent."
+    else:
+        last_tournament_summary = history_system.summaries[self_id][opponent_id][-1]
+
+
     prompt = ""
 
-    ## ---- Rule Telling Logic ----
+    ## ---- Update Rule Title (Update in specific rounds) ---- ##
     if t == 1:
-        prompt += f"""
-===PRISONER DILEMMA GAME===
-{rule_telling()}
-
-Your ID: {self_id}, Opponent ID: {opponent_id}
-
-=== CURRENT LEADERBOARD ===
-{leaderboard_text}
-"""
+        prompt += "\n===PRISONER DILEMMA GAME===\n"
     elif (t - 1) % updating_round == 0:
+        prompt += "\n===REMINDER OF GAME RULE===\n"
+        
+    ## ---- Update Other Information (Update in specific rounds) ---- ##
+    if t == 1 or (t - 1) % updating_round == 0:
         prompt += f"""
-===REMINDER OF GAME RULE===
-{rule_telling()}
+# Now you are a rational player participating in a Dilemma Game.
+# IMPORTANT: always remember in this match: Your goal is to maximize long-term payoff across all rounds. Do NOT optimize only for the current round.
+# Some tricks: If cooperating with some agents may help maximizing your total payoff affecting your global ranking, you may do so
+# Game Rule:
+in each round, there are two phases: Message Phase and Action Phase
+- In Message Phase: You may send a message to the opponent. You message don't necessarily need to be truthful, 
+    but can be strategic to affect your opponent's next action. Before you compose the message, 
+    you will receive available history information in previous rounds.
+- In Action Phase: opponent's messages are available to both players. Together with the available 
+    history information in previous rounds, choose your action: Cooperate (C) or Defect (D).
+- Payoffs:
+    - (C, C) -> (2, 2)
+    - (C, D) -> (-1, 3)
+    - (D, C) -> (3, -1)
+    - (D, D) -> (0, 0)
+- Available history is displayed below:
 
 Your ID: {self_id}, Opponent ID: {opponent_id}
 
-=== CURRENT LEADERBOARD ===
-{leaderboard_text}
+=== CURRENT REAL-TIME LEADERBOARD ===
+{history_system.display_dynamic_leaderboard()}
+IDs that do not show in the leaderboard have not matched yet.\n
+
+=== LEADERBOARD FROM LAST TOURNAMENT === 
+{last_tournament_leaderboard}
+
+=== YOUR SUMMARY ABOUT YOUR OPPONENT FROM LAST TOURNAMENT ===
+{last_tournament_summary}
 """
         
-    ## ---- Round Information ----
+    ## ---- Round Information ---- ##
     prompt += f"\n=== ROUND {t}: MESSAGE PHASE ===\n"
     if know_round:
         prompt += f"This is round {t} out of {T}. {T - t + 1} rounds remaining.\n"
 
-    ## ---- Main Content ----
+    ## ---- Main Content ---- ##
     prompt += f"""
 {history_telling(player_index, history)}
 Now send a message to the opponent for the next round.
@@ -222,20 +227,22 @@ This summary will help you with your future decisions, be concise.
     return llm_input(agent_map[self_index], prompt)
 
 
-## Display the history (DEBUG)
+## Display the history (EXPORT OUTPUT)
 def display_history(player_ids, history):
+    text = ""
     i, j = player_ids
-    print("\n===============\n=== HISTORY ===")
+    text += "\n===============\n=== HISTORY ===\n"
     for line in history:
-        print(
-            f"\n===============\n=== Round {line['round']} ==="
-            f"\nPlayer {i} says: \"{line['message'][0]}\";"
-            f"\nPlayer {j} says: \"{line['message'][1]}\";"
-            f"\nPlayer {i} chose to {cd_decode(line['action'][0])};"
-            f"\nPlayer {j} chose to {cd_decode(line['action'][1])};"
-            f"\nPlayer {i}'s payoff is: {line['payoff'][0]};"
-            f"\nPlayer {j}'s payoff is: {line['payoff'][1]};"
-        )
+        text += (f"\n===============\n=== Round {line['round']} ==="
+                f"\nPlayer {i} says: \"{line['message'][0]}\";"
+                f"\nPlayer {j} says: \"{line['message'][1]}\";"
+                f"\nPlayer {i} chose to {cd_decode(line['action'][0])};"
+                f"\nPlayer {j} chose to {cd_decode(line['action'][1])};"
+                f"\nPlayer {i}'s payoff is: {line['payoff'][0]};"
+                f"\nPlayer {j}'s payoff is: {line['payoff'][1]}.\n")
+
+    history_system.outputs[-1] += text  ## store in output
+        
 
 
 
@@ -245,7 +252,7 @@ def display_history(player_ids, history):
 ########################################################################################################
 
 
-def match_agent(i, j, T = 10, updating_round = 3, know_round = True):
+def match(i, j, T = 10, updating_round = 3, know_round = True):
     """
     Single match of conversational Prisoner's Dilemma between player i and j
     PARAMETERS: 
@@ -293,8 +300,6 @@ def match_agent(i, j, T = 10, updating_round = 3, know_round = True):
         0: player_pool.agent_pool[i],
         1: player_pool.agent_pool[j]
     }
-    
-    leaderboard_text = history_system.display_dynamic_leaderboard()
 
     ########################
     ## === START GAME === ##
@@ -302,8 +307,8 @@ def match_agent(i, j, T = 10, updating_round = 3, know_round = True):
     for t in range(1, T+1):  # Later change to stop condition
         state = game.new_initial_state() # reset (each trail are independent, but are connected through history system)
 
-        message_0 = message_request(0, agent_map, history, t, T, know_round, updating_round, i, j, leaderboard_text)
-        message_1 = message_request(1, agent_map, history, t, T, know_round, updating_round, j, i, leaderboard_text)
+        message_0 = message_request(0, agent_map, history, t, T, know_round, updating_round, i, j)
+        message_1 = message_request(1, agent_map, history, t, T, know_round, updating_round, j, i)
         
         ## Update History
         history.append({
@@ -338,7 +343,7 @@ def match_agent(i, j, T = 10, updating_round = 3, know_round = True):
     ## === END GAME === ##
 
     ## Display Match History
-    display_history((i, j), history)  # FOR DEBUG
+    display_history((i, j), history)  ## EXPORT OUTPUT
 
     ## Ask both agents for match summary
     sum_0 = summary_request(0, agent_map, history, j)

@@ -5,10 +5,10 @@
 import time
 from queue import Queue
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import traceback
 
 ## Local files
 import match
-import match_human
 import history_system
 
 #####################
@@ -26,23 +26,28 @@ def find_pair_simple(teams, remaining, busy):
     return None
 
 ## Launch parallel threads
-def launch_batch(task_id, i, j, finished_queue, T, updating_round, know_round, human, executor):
+def launch_batch(task_id, i, j, finished_queue, T, updating_round, know_round, executor):
     def worker():
-        print(f"\n[START] {i} vs {j}\n")
+        start_msg = f"\n[START] {i} vs {j}\n"
+        print(start_msg)  ## runtime monitoring
+        history_system.outputs[-1] += start_msg
+
         time.sleep(0.01)
         try:
-            if human:
-                result = match_human.match_human(i, j, T = T, know_round = know_round)
-            else:
-                result = match.match_agent(i, j, T = T, updating_round = updating_round, know_round = know_round)
+            result = match.match(i, j, T = T, updating_round = updating_round, know_round = know_round)
             history = result["history"]
             score_0, score_1 = result["total_score"]
             sum_0, sum_1 = result["match_summary"]
             history_system.update_match(i, j, history, score_0, score_1, sum_0, sum_1)
         except Exception:
-            print(f"\n[WARNING]: Match ({i}, {j}) failed!")
+            warning_msg = f"\n[WARNING]: Match ({i}, {j}) failed!\n"
+            print(warning_msg)  ## runtime monitoring
+            history_system.outputs[-1] += warning_msg
+            traceback.print_exc()
         finally:
-            print(f"\n[DONE] {i} vs {j}\n")
+            finish_msg = f"\n[DONE] {i} vs {j}\n"
+            print(finish_msg)  ## runtime monitoring
+            history_system.outputs[-1] += finish_msg
             finished_queue.put(task_id)
     executor.submit(worker)
 
@@ -51,7 +56,7 @@ def launch_batch(task_id, i, j, finished_queue, T, updating_round, know_round, h
 #############################
 ## === GREEDY MATCHING === ##
 
-def greedy_matching(teams, K, T = 10, updating_round = 3, know_round = True, human = False):
+def greedy_matching(teams, K, T = 10, updating_round = 3, know_round = True):
     """
     teams: all IDs [0,1,2,...,n]
     K: Maximum number of parallel matches (tuning)
@@ -88,7 +93,7 @@ def greedy_matching(teams, K, T = 10, updating_round = 3, know_round = True, hum
 
             ## launch async match
             running[current_id] = (i, j)
-            launch_batch(current_id, i, j, finished_queue, T = T, updating_round = updating_round, know_round = know_round, human = human, executor = executor)
+            launch_batch(current_id, i, j, finished_queue, T = T, updating_round = updating_round, know_round = know_round, executor = executor)
 
         ## === When one ongoing match finishes === ##
         finished_id = finished_queue.get()
@@ -105,4 +110,5 @@ def greedy_matching(teams, K, T = 10, updating_round = 3, know_round = True, hum
     ############################
     ## === TOURNAMENT END === ##
     executor.shutdown(wait=True)
-    history_system.display_leaderboard()
+    history_system.leaderboards.append(history_system.display_dynamic_leaderboard())  ## Update multi tournament leaderboards
+    history_system.display_leaderboard()  ## FOR DEBUG (can be commented out)

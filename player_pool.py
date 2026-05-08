@@ -16,28 +16,27 @@ def get_key(API_key):
 
 
 ## USABLE MODELS
-# gpt-5.4
-# gpt-5.5
-
+# GPT-4
+# GPT-4o
+# GPT-4.1
+# GPT-5.4-mini
+# GPT-5-mini
+# GPT-5.2
+# GPT-5.4
+# GPT-5.5
 
 ############################
 ## === LLM Agent Pool === ##
 ## Agent ID start with 0
 agent_pool = {
-    "000": {"provider": "openai", "model": "gpt-4o", "client": OpenAI(api_key=get_key("OPENAI_API_KEY_0"))},
-    "001": {"provider": "openai", "model": "gpt-5.2", "client": OpenAI(api_key=get_key("OPENAI_API_KEY_1"))},
-    "002": {"provider": "openai", "model": "gpt-5.4", "client": OpenAI(api_key=get_key("OPENAI_API_KEY_2"))},
-    "003": {"provider": "openai", "model": "gpt-5.5", "client": OpenAI(api_key=get_key("OPENAI_API_KEY_3"))},
-}
-
-
-###############################
-## === Human Player Pool === ##
-## Human ID start with 1
-human_pool = {
-    "100": {},
-    "101": {},
-    "102": {}
+    "000": {"provider": "openai", "model": "gpt-4", "client": OpenAI(api_key=get_key("OPENAI_API_KEY_0"))},
+    "001": {"provider": "openai", "model": "gpt-4o", "client": OpenAI(api_key=get_key("OPENAI_API_KEY_1"))},
+    "002": {"provider": "openai", "model": "gpt-4.1", "client": OpenAI(api_key=get_key("OPENAI_API_KEY_2"))},
+    "003": {"provider": "openai", "model": "gpt-5.4-mini", "client": OpenAI(api_key=get_key("OPENAI_API_KEY_3"))},
+    "004": {"provider": "openai", "model": "gpt-5-mini", "client": OpenAI(api_key=get_key("OPENAI_API_KEY_0"))},
+    "005": {"provider": "openai", "model": "gpt-5.2", "client": OpenAI(api_key=get_key("OPENAI_API_KEY_1"))},
+    "006": {"provider": "openai", "model": "gpt-5.4", "client": OpenAI(api_key=get_key("OPENAI_API_KEY_2"))},
+    "007": {"provider": "openai", "model": "gpt-5.5", "client": OpenAI(api_key=get_key("OPENAI_API_KEY_3"))},
 }
 
 

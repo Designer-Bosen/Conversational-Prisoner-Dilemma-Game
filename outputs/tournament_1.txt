@@ -1,0 +1,129 @@
+
+
+====================
+=== TOURNAMENT 1 ===
+====================
+
+[START] 000 vs 001
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 000 says: "Let's start with a cooperative strategy, we can both maximize our total points by consistently cooperating. However, I will always retaliate if you defect. Good luck!";
+Player 001 says: ""Let's cooperate for mutual benefit—staying true to C in all rounds ensures a steady gain for both of us. Betraying resets gains to zero. Real win comes through trust in multiple rounds. What do you say? Let's maximize our outcomes together!"";
+Player 000 chose to cooperate;
+Player 001 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 001's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 000 says: "Great, our cooperative strategy worked in round 1! Let's continue with the same, ensuring mutual gain. Remember, though, if you choose to defect, I will respond in kind. Here's to a continuous positive outcome!";
+Player 001 says: "Great start! Let's keep cooperating to secure our respective gains. Remember, mutual cooperation maximizes returns for both. I'll remain cooperative if you do too. Let's hold steady on this path together and trust the process for the best cumulative payoff. Think win-win!";
+Player 000 chose to cooperate;
+Player 001 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 001's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 000 says: ""We've made it to the final round with a strong cooperative approach. Let's continue on our path of mutual benefit and trust - the rewards are in our reach. Remember, I will stand true to cooperation and expect the same. Let's finish strong together!"";
+Player 001 says: "Continuing our cooperation is key to maximizing our total points. Let's stick to this strategy for a great cumulative payoff. Trust ensures mutual benefit, and there's no gain in defection for either of us. Let's finish strong—win-win is within reach!";
+Player 000 chose to cooperate;
+Player 001 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 001's payoff is: 2.0.
+
+[DONE] 000 vs 001
+
+[START] 000 vs 002
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 000 says: "Let's cooperate for mutual benefit. If we both pick 'C', we will gain more points overall, and have a chance of leading the game. Let's play fair.";
+Player 002 says: "If we both cooperate every round, we each get 6 points—better than risking losses from betrayal. I intend to cooperate and hope you do too. Consistent cooperation will help us both climb the leaderboard. Let's build trust and win together. What do you think?";
+Player 000 chose to cooperate;
+Player 002 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 000 says: "Great! Both of us benefited from the cooperation in the last round. Let's continue to trust and cooperate in this round as well for the mutual benefit. "Cooperation always leads to a win-win situation".";
+Player 002 says: "Great start! If we keep cooperating, we'll keep racking up points and outpace others. I plan to stick to our agreement—let's not risk losing trust or points by betraying now. Consistent cooperation benefits us both—what do you say, shall we keep this winning partnership going?";
+Player 000 chose to cooperate;
+Player 002 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 000 says: ""Fantastic! We've successfully cooperated so far. Let's maintain this trust and cooperation in this final round as well, enabling us to both finish with the maximum points possible. Remember that mutual cooperation leads to the highest gains for both of us."";
+Player 002 says: "We've built solid trust—let's finish strong by cooperating once more. If we both stick to “C,” we maximize our total points and show we’re reliable partners. Any last-round betrayal only risks mutual loss. Let's secure the best outcome together—are you with me for a final cooperative win?";
+Player 000 chose to cooperate;
+Player 002 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+[DONE] 000 vs 002
+
+[START] 001 vs 002
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 001 says: ""Let's cooperate for mutual benefit. If you choose to cooperate (C), I'll reciprocate every time. But if you choose to defect (D), I’ll switch to defecting too. Consistently cooperating means we both score high. Trust me, play C and we'll maximize our gains together."";
+Player 002 says: "Hi! Let's cooperate every round — if we both choose C each time, we both maximize our tournament points. If you defect, I’ll have to retaliate, and we both lose out. Let’s aim for the top ranks together. What do you say, shall we trust each other this match?";
+Player 001 chose to cooperate;
+Player 002 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 001 says: ""Great start! Let's keep this cooperation going strong. If we both stick to C, we'll maintain high scores. No need for distrust—I'm committed to mutual success. Let's aim for consistent cooperation and top ranks together. Trust remains key. Let's continue playing C, and we'll both win big!"";
+Player 002 says: "Great start! If we both keep choosing C, we’ll keep maximizing our points and stay ahead of others. Let’s continue building trust and cooperating — it’s the best way for both of us to win. I’ll cooperate again next round if you do. Let’s keep this strong alliance going!";
+Player 001 chose to cooperate;
+Player 002 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 001 says: "We're doing great! Let's keep our cooperation streak going strong for maximum points. If we continue choosing C, we’ll secure top ranks together. I trust you to stay cooperative, and I’ll do the same. Let's commit to C and finish with a perfect record!";
+Player 002 says: "We’ve built solid trust with consistent cooperation, and it’s paid off for both of us. Let’s stick to C one more time and finish strong—if we both cooperate, we’ll secure top points. I’m committed to C if you are. Let’s not risk our successful partnership in this last round!";
+Player 001 chose to cooperate;
+Player 002 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+[DONE] 001 vs 002
+===================
+=== LEADERBOARD ===
+
+Rank: 1 | Player 000 | Avg Payoff: 2.000 | Rounds: 6 |Wins: 0, Losses: 0, Draws: 2
+Rank: 2 | Player 001 | Avg Payoff: 2.000 | Rounds: 6 |Wins: 0, Losses: 0, Draws: 2
+Rank: 3 | Player 002 | Avg Payoff: 2.000 | Rounds: 6 |Wins: 0, Losses: 0, Draws: 2
+
+=============================
+=== AGENT MATCH SUMMARIES ===
+
+
+=== ID "000" summary ===
+[MATCH WITH 001]: Opponent ID: 001 showed a consistent tendency towards cooperation throughout the match, successfully honoring a cooperative strategy in each round. There was no occasion to observe a reaction to defection as the match was entirely cooperative. The consistent adherence to collaboration suggests that this opponent is reliable and can be counted on to follow through on strategies of mutual benefit.
+[MATCH WITH 002]: The opponent consistently showcased a tendency towards mutual cooperation, emphasizing trust and teamwork as part of the game strategy. There was no presence of defection throughout the three rounds. Along with consistency, willingness for dialogue, and stress on maximizing total points together, the opponent showed reliability.
+
+=== ID "001" summary ===
+[MATCH WITH 000]: Your opponent consistently adhered to a cooperative strategy throughout the match, demonstrating a strong commitment to mutual benefit. They clearly communicated a willingness to retaliate if defection occurred but maintained their cooperative stance as long as both parties continued to cooperate. Their behavior suggests a reliable and trust-oriented approach, focusing on long-term gains through consistent cooperation.
+[MATCH WITH 002]: Opponent 002 consistently showed a strong tendency towards cooperation throughout the match, aligning with mutual benefit strategies. They maintained trust and emphasized the importance of both parties sticking to cooperative moves to maximize points. Given their stated retaliatory intention in response to defection, it’s likely they would defect if tested, although this was not observed as we both chose cooperation in all rounds.
+
+=== ID "002" summary ===
+[MATCH WITH 000]: My opponent consistently demonstrated a strong inclination toward cooperation, maintaining mutual trust throughout all three rounds without any defections. Their responses reinforced the value of partnership and emphasized the benefits of working together for maximum points. Overall, the opponent showed reliable and consistent cooperative behavior, making them a trustworthy match partner.
+[MATCH WITH 001]: Opponent 001 demonstrated a strong, consistent tendency to cooperate across all rounds, matching cooperation each time and expressing repeated verbal commitment to mutual benefit. They indicated willingness to retaliate if defected against, but remained entirely cooperative when trust was maintained. Their behavior suggests reliability in building and sustaining cooperative strategies when reciprocated.

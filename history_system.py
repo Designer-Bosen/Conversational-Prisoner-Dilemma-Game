@@ -1,10 +1,41 @@
 #####################
 ## === Imports === ##
 import threading
-import player_pool
+
+
 
 ###################################
-## === Global History System === ##
+## -- Multi Tournament System -- ##
+
+# summaries = {
+#     "000": {
+#         "001": [sum_tour_1, sum_tour_2, ...],
+#         "002": [sum_tour_1, sum_tour_2, ...],
+#         ...
+#     },
+#     "001": [...],
+#     "002": [...],
+#     ......
+# }
+
+# leaderboards = [final_leaderboard_1, final_leaderboard_2, ...]
+
+# output = [tour_1, ]
+
+summaries = {}
+leaderboards = []
+outputs = []
+
+def initialize_cross_tournament(teams):
+    global summaries, leaderboards
+
+    # Reset
+    summaries = { i: { j: [] for j in teams if j != i } for i in teams }
+    leaderboards = []
+    outputs = []
+
+######################################
+## === Single Tournament System === ##
 
 ##########################
 ## -- global matches -- ##
@@ -12,7 +43,6 @@ import player_pool
 ## - "players": a 2-tuple of players
 ## - "match history": a list of T dictionaries corresponding to T rounds
 ## - "total_score": a 2-tuple of end game cumulative score 
-## - "match_summary": a dictionary of 
 
 
 ####################################
@@ -28,34 +58,26 @@ import player_pool
 #         "players": ("000", "001"),
 #         "match history": [...],
 #         "total_score": (x, y)
-#         "match_summary": {
-#             "000": sum_x,
-#             "001": sum_y
-#         }
-#     }
+#     },
 #     ......
 # }
 
 # agent_matches = {
-#     "000": [match_id0, match_id1],
-#     "001": [match_id0, match_id2],
-#     "002": [match_id1, match_id2]
+#     "000": [match_id0, match_id1, ...],
+#     "001": [match_id0, match_id2, ...],
+#     "002": [match_id1, match_id2, ...],
 #     ......
 # }
 
 # agent_stats = {
-#     "000": {"rank": None, "wins": 0, "losses": 0, "draws": 0, "total_rounds": 0, "total_payoff": 0, "average_payoff": 0}
-#     "001": {"rank": None, "wins": 0, "losses": 0, "draws": 0, "total_rounds": 0, "total_payoff": 0, "average_payoff": 0}
-#     "002": {"rank": None, "wins": 0, "losses": 0, "draws": 0, "total_rounds": 0, "total_payoff": 0, "average_payoff": 0}
+#     "000": {"rank": None, "wins": 0, "losses": 0, "draws": 0, "total_rounds": 0, "total_payoff": 0, "average_payoff": 0},
+#     "001": {"rank": None, "wins": 0, "losses": 0, "draws": 0, "total_rounds": 0, "total_payoff": 0, "average_payoff": 0},
+#     "002": {"rank": None, "wins": 0, "losses": 0, "draws": 0, "total_rounds": 0, "total_payoff": 0, "average_payoff": 0},
 #     ......
 # }
 
 ## Descending order based on avg
 # global_ranking = [(idXXX, avg), (idXXX, avg), ......]
-
-## Match-wise Summary
-
-## Tournament Summary
 
 
 
@@ -92,9 +114,11 @@ def update_match(i, j, history, score_0, score_1, sum_0, sum_1):
         global_matches[match_id] = {
             "players": (i, j),
             "match_history": history,
-            "total_score": (score_0, score_1),
-            "match_summary": {i: sum_0, j: sum_1}
+            "total_score": (score_0, score_1)
         }
+
+        summaries[i][j].append(sum_0)
+        summaries[j][i].append(sum_1)
 
         ## --- Update agent match --- ##
         agent_matches[i].append(match_id)
@@ -150,8 +174,7 @@ def update_ranking():
 ## Display real-time leaderboard to a pair of agents when a single match starts
 def display_dynamic_leaderboard():
     global global_ranking, agent_stats
-
-    text = "===================\n=== LEADERBOARD ===\n"
+    text = ""
 
     ## Filter players who have played at least one match
     played_ids = {id for id, stats in agent_stats.items() if stats["total_rounds"] > 0}
@@ -166,9 +189,7 @@ def display_dynamic_leaderboard():
     for id, avg in filtered_ranking:
         stats = agent_stats[id]
         rank = stats["rank"]
-        text += f"Rank: {rank} | Player {id} | W: {stats['wins']}, L: {stats['losses']}, D: {stats['draws']}\n"
-        
-    text += "\nIDs that do not show in the leaderboard have not matched yet.\n"
+        text += f"Rank: {rank} | Player {id} | Wins: {stats['wins']}, Losses: {stats['losses']}, Draws: {stats['draws']}\n"
 
     return text
 
@@ -176,37 +197,28 @@ def display_dynamic_leaderboard():
 ## Display Match Information after tornament is finished (DEBUG)
 def display_leaderboard():
     global global_ranking, agent_stats
-    print("==========================\n=== TOURNAMENT SUMMARY ===\n")
+
+    text = ""
 
     ## --- Leaderboard ---
-    print("===================\n=== LEADERBOARD ===\n")
+    text += "===================\n=== LEADERBOARD ===\n\n"
     for id, avg in global_ranking:
         stats = agent_stats[id]
         rank = stats["rank"]
-        print(f"Rank: {rank} | Player {id} | Avg Payoff: {stats['average_payoff']:.3f} | Rounds: {stats['total_rounds']} |" 
-              f"W: {stats['wins']}, L: {stats['losses']}, D: {stats['draws']}")
+        text += (f"Rank: {rank} | Player {id} | Avg Payoff: {stats['average_payoff']:.3f} | Rounds: {stats['total_rounds']} |" 
+                f"Wins: {stats['wins']}, Losses: {stats['losses']}, Draws: {stats['draws']}\n")
     
     ## --- Match Summary ---
-    print("\n=============================\n=== AGENT MATCH SUMMARIES ===\n")
-    agent_summary_map = {id: [] for id in agent_stats.keys()}
+    text += "\n=============================\n=== AGENT MATCH SUMMARIES ===\n\n"
+    for id in summaries:
+        text += f"\n=== ID \"{id}\" summary ===\n"
+        for opponent_id in summaries[id]:  # display the last element in each list (summary just for this tournament)
+            latest_summary = summaries[id][opponent_id][-1]
+            text += f"[MATCH WITH {opponent_id}]: {latest_summary}\n"
 
-    for match in global_matches.values():  ## Extract and reorganize into a new data structure
-        i, j = match["players"]
-        summaries = match["match_summary"]
+    ## --- store in output ---
+    outputs[-1] += text
 
-        agent_summary_map[i].append((j, summaries[i]))
-        agent_summary_map[j].append((i, summaries[j]))
-
-    for id in agent_summary_map:  ## Display
-        print(f"\n=== ID \"{id}\"'s summary ===")
-
-        for opponent_id, summary in agent_summary_map[id]:
-            print(f"[MATCH WITH {opponent_id}]: {summary}")
-
-
-    ## --- Tournament Summary ---
-    print("\n==================================\n=== AGENT TOURNAMENT SUMMARIES ===\n")
-    print("NOT DESIGNED YET")
 
 
     
