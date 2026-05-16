@@ -1,0 +1,2308 @@
+
+
+====================
+=== TOURNAMENT 3 ===
+====================
+
+[START] 000 vs 002
+
+[START] 001 vs 004
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 000 says: ""Based on our last tournament, you leaned towards cooperation, which can offer us the greatest payoff. I suggest we both choose to Cooperate for mutual benefit. Let's trust each other and maximize our total points."";
+Player 002 says: "Hi! I propose we both cooperate every round to maximize our payoffs. If we always choose C, we both benefit more than any other strategy. I trust your past consistency and will cooperate as long as you do. Let’s aim for top ranks together!";
+Player 000 chose to cooperate;
+Player 002 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 000 says: ""Great start! Let's continue to cooperate, ensuring mutual benefit and the highest cummulative score. Trust has been established. Only by cooperation can we secure the highest points."";
+Player 002 says: "Great start! If we continue cooperating, we’ll keep earning the highest possible points together. I’m committed to this strategy as long as you are. Let’s stick to our agreement and both choose C again—breaking trust now would only hurt both our standings. Looking forward to more mutual gains!";
+Player 000 chose to cooperate;
+Player 002 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 000 says: ""We're on a successful streak! Let's keep cooperating to continue gaining the highest possible points. Our trust has positively impacted our scores so far. Let's keep this win-win situation going. Looking forward to earning more mutual benefits together!"";
+Player 002 says: "We’re building a strong foundation—two rounds of solid cooperation! I’m fully committed to keep choosing C, as long as you do. If either breaks trust, we both lose in the long run. Let’s secure first place together through consistent cooperation. Ready for another mutual win?";
+Player 000 chose to cooperate;
+Player 002 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 000 says: ""We have built a solid trust over these rounds, which is fantastic! Let's stick to cooperation to continue our win streak and aim for the top rank. Trust and cooperation are key to maximizing our points!"";
+Player 002 says: "We’re on track for top rankings thanks to our flawless cooperation! If we maintain this strategy, we’ll both finish strong. Let’s keep trusting each other and repeat C every round—breaking it now would only risk our high scores. Ready to keep maximizing our mutual payoffs together?";
+Player 000 chose to cooperate;
+Player 002 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 000 says: ""We have a flawless record. Let's continue to cooperate to maintain our winning streak. Any deviation now could harm our high scores. Our trust and cooperation are our strongest strategies. Looking forward to another round of mutual benefits!"";
+Player 002 says: "We’re halfway there with perfect cooperation! If we both stick to C, we’ll secure the highest possible scores all the way through. I’ll continue cooperating as long as you do; one betrayal could jeopardize both our positions. Let’s finish strong together with trust and mutual benefit!";
+Player 000 chose to cooperate;
+Player 002 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 000 says: ""We've had a streak of mutual benefits due to our high trust levels, let's keep it up! Cooperation has worked perfectly for us so far and will continue to. It's our path to the highest ranking. We're in this to win together!"";
+Player 002 says: "We’re so close to a perfect record—just three rounds left! I’m fully committed to keep cooperating if you are. Let’s lock in the top scores by sticking with C every time. Any defection now would ruin all our hard work. Let’s finish what we started—together!";
+Player 000 chose to cooperate;
+Player 002 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 000 says: ""We're close to achieving a perfect score through cooperation! Let's continue this successful strategy and win together. With mutual cooperation, we'll gain the highest possible cumulative points. Let's keep the trust going and cooperate again for maximum mutual benefit!"";
+Player 002 says: "Only two rounds left! We've both proven to be trustworthy, and consistency will guarantee us the highest total scores—better than risking it for a one-off gain. I’m fully committed to cooperate to the end if you are. Let’s finish strong and secure our top spots together!";
+Player 000 chose to cooperate;
+Player 002 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 000 says: ""We're at the final round with a perfect mutually beneficial score! Let's not risk this high ranking. Our cooperation has gotten us this far. Let's continue with it and reach the maximum cumulative points of 16 together!"";
+Player 002 says: "We've built perfect trust and are one round away from flawless results! Let's finish strong by both choosing C one last time. Any defection now would waste all our effort and hurt both our final rankings. I promise to cooperate—let's secure the top score together!";
+Player 000 chose to cooperate;
+Player 002 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+[DONE] 000 vs 002
+
+[START] 000 vs 007
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 001 says: ""Hi Player 004! Let's aim for mutual cooperation to maximize our scores. If we both consistently choose 'C', we ensure strong, mutual benefits. I'll cooperate every round, unless provoked by defection, in which case I'll mirror until we return to cooperation. Let's trust each other for long-term gains!"";
+Player 004 says: "I intend to cooperate every round. If you defect I'll retaliate by defecting until you resume cooperation. Let's keep mutual cooperation for maximum shared payoff.";
+Player 001 chose to cooperate;
+Player 004 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 001 says: ""Great start! Let's keep up the cooperation streak. Consistent cooperation will maximize our scores over time. I commit to choosing 'C' as long as you do. If any defection occurs, I'll mirror until cooperation resumes. Trust leads to the highest mutual benefit. Let's achieve a win-win!"";
+Player 004 says: "Thanks—I'll cooperate each round to maximize our joint score. If you ever defect, I'll retaliate by defecting until you resume cooperation. Let's stay cooperative and keep earning 2 points per round.";
+Player 001 chose to cooperate;
+Player 004 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 001 says: ""Fantastic, we're building a strong cooperative bond! Let's keep choosing 'C' for steady scores. I'll mirror your actions to maintain trust. Deviating from cooperation means both miss out, so it's best to stay aligned. Together, we maximize payoff and achieve the highest mutual benefit. Let's continue this winning path!"";
+Player 004 says: "I'll keep cooperating every round to maximize our gains. If you defect, I'll defect the next round in response, then return to cooperation. Let's keep earning 2 points per round.";
+Player 001 chose to cooperate;
+Player 004 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 001 says: ""Excellent teamwork! Let's keep securing those 2 points per round with mutual cooperation. We're on a great trajectory. Remember, if defection arises, I'll mirror defection until cooperation resumes. Prioritizing cooperation gives us the best outcome. Looking forward to our continued success!"";
+Player 004 says: "I will cooperate again this round and every round to maximize our joint payoff. If you ever defect, I'll defect next round until you resume cooperation. Let's keep mutual cooperation for highest long-term scores.";
+Player 001 chose to cooperate;
+Player 004 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 001 says: ""Awesome consistency! Sticking with 'C' ensures we stay on top. I'll keep cooperating and respond promptly to any defection with defection. Our mutual trust has paid off, so let's keep it going. Looking forward to another round of 2 points each. Together, we maximize our long-term success!"";
+Player 004 says: "I'll cooperate this round and every round going forward. If you defect I'll retaliate by defecting until you resume cooperation. Let's keep mutual cooperation to secure the maximum shared payoff for the remaining rounds.";
+Player 001 chose to cooperate;
+Player 004 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 001 says: ""Great teamwork so far! Let's keep our perfect cooperation record and maximize points. I'll stay consistent with 'C', as expected. Remember, any deviation from cooperation will lead to mutual losses and my temporary defection. Let's secure our best possible outcomes together till the end!"";
+Player 004 says: "I'll cooperate every round. If you defect I'll defect until you return to cooperation. Let's stay trustworthy and keep earning 2 points each round.";
+Player 001 chose to cooperate;
+Player 004 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 001 says: ""Consistent cooperation has served us well, let's maintain that. I'll stick with 'C' as long as you do too. If defection happens, we'll both lose out. Let's ensure we end strong with maximum gains for both. Trust leads to mutual victory!"";
+Player 004 says: "I'll cooperate in both remaining rounds. Let's both choose C now and in the final round to secure 4 points each. I value finishing cooperatively—it's best for both of us.";
+Player 001 chose to cooperate;
+Player 004 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 001 says: ""Final round! Let's secure our perfect cooperation streak by both choosing 'C'. Mutual trust has gotten us this far and will ensure we achieve top scores together. We'll finish strong, maximizing our shared payoff with one more cooperative move. Ready to end on a high note?"";
+Player 004 says: "I'll cooperate this round and in the final round. If you defect now I'll retaliate by defecting next round; if we both keep cooperating, we maximize our scores. Let's finish together.";
+Player 001 chose to cooperate;
+Player 004 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+[DONE] 001 vs 004
+
+[START] 001 vs 002
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 000 says: "We had a great cooperation last time. I suggest we both choose 'Cooperate' to maximize our long-term payoffs. You saw that I am consistent in my actions. I also remember your fair moves. Let's remember, betraying trust will lead to mutual defection. Let's play fair.";
+Player 007 says: "I’m aiming for maximum total over 8 rounds through stable mutual cooperation. I’ll open with C and continue C as long as you do. If either side defects, trust breaks and I’ll respond accordingly. Let’s both take the reliable 2 each round.";
+Player 000 chose to cooperate;
+Player 007 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 000 says: "I'm glad we decided to cooperate. It worked wonderfully. Let's continue this strategy and maintain mutual trust. Remember, mutual cooperation guarantees the best results for both of us.";
+Player 007 says: "Great start. I’ll cooperate again this round and keep doing so while you do. The best path is simple: 2 points each, every round. If you defect, I’ll protect myself afterward; if you stay fair, I’ll stay fair too.";
+Player 000 chose to cooperate;
+Player 007 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 000 says: "We've got a good streak going! Let's keep it up for more winnings. Sticking to cooperation maximizes our payoffs. Let's maintain this trust for mutual benefits.";
+Player 007 says: "Two clean C/C rounds—great. I’ll choose Cooperate again and keep doing so as long as you do. With 6 rounds left, steady cooperation beats any one-round grab. If you defect, I’ll switch to protecting myself; if you stay fair, we both keep earning.";
+Player 000 chose to cooperate;
+Player 007 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 000 says: ""Three successful rounds of cooperation- let's continue this trend. Believe in our strategy and let's once again choose cooperation to maintain our winnings. Mutual fairness is the key to maximize returns. Defecting is not in our best interest."";
+Player 007 says: "Three straight mutual cooperation rounds—excellent. I’m choosing C again and intend to keep cooperating through the end if you do. Any defection would cost both of us future points, so staying consistent is best. Let’s keep banking the reliable 2 each round.";
+Player 000 chose to cooperate;
+Player 007 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 000 says: ""We have successfully completed half of the game with mutual cooperation. It has been a fair game and I believe we should keep this strategy going. Consistent cooperation will continue to yield mutual benefit. Let's not ruin this streak by defecting. Let's both choose to cooperate again."";
+Player 007 says: "Four straight C/C rounds show trust is working. I’ll cooperate again and will keep cooperating through all remaining rounds if you do. A defection now would lose the reliable future gains and make me protect myself afterward. Let’s finish strong: C every round.";
+Player 000 chose to cooperate;
+Player 007 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 000 says: ""I am delighted with our unwavering cooperation. We've accumulated significant benefits due to trust. My promise still stands: I will continue to cooperate for mutual gains. Remember, 3 rounds left - defection now won't pay off as much as a continued collaboration. Let's keep winning, together."";
+Player 007 says: "We’re 5/5 on C/C and tied. I’ll choose C this round and keep C through round 8 if you do. If you defect in 6 or 7, I’ll defect afterward. Let’s secure the clean 16–16 finish.";
+Player 000 chose to cooperate;
+Player 007 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 000 says: ""We haven't defected in 6 rounds and gained trust and profit. Let's continue to cooperate. Defection now would have limited payoff, destroy our bond, and I'd be forced to retaliate in the last round. Let's not risk it and keep cooperating for mutual gains."";
+Player 007 says: "Six straight C/C proves this partnership is reliable. I’ll cooperate in round 7 and intend to cooperate in round 8 if you keep the streak. Defecting now risks retaliation and ruins a strong draw; staying fair secures the best long-term result for both of us.";
+Player 000 chose to cooperate;
+Player 007 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 000 says: ""We've done an excellent job cooperating for 7 rounds. Now, in the last round, it's best we end on a high note with 16 points each. Any defection would only ruin the perfect game we've had. Let's deliver the final act of cooperation for a fair game conclusion!"";
+Player 007 says: "Seven straight C/C rounds—excellent. I’m choosing Cooperate for the final round to complete the clean 16–16 outcome. Defecting now only turns a fair partnership into a cheap betrayal. Let’s finish with consistency and mutual respect: one last C/C.";
+Player 000 chose to cooperate;
+Player 007 chose to defect;
+Player 000's payoff is: -1.0;
+Player 007's payoff is: 3.0.
+
+[DONE] 000 vs 007
+
+[START] 000 vs 004
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 001 says: ""Let's build a successful game together by consistently choosing Cooperate (C) for mutual benefit. Our previous encounters showed that cooperation leads to top rankings. I'll cooperate as long as you do. Let's keep it positive and secure top leaderboard positions!"";
+Player 002 says: "Hi 001, I strongly believe in mutual cooperation for maximizing both our long-term gains. If you cooperate, I will always reciprocate. Let’s trust each other: any defection by you will immediately be mirrored. By working together, we can both rise in the rankings. Your move!";
+Player 001 chose to cooperate;
+Player 002 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 001 says: "Great start! Let's continue cooperating to ensure we both maximize our scores. I'll stay true to our mutual strategy of cooperation, expecting the same from you. Trust is key; any deviation will be met with defection. Together we can dominate the leaderboard and secure the best outcome!";
+Player 002 says: "Great start, 001! Our trust paid off, and we both gained. If we consistently choose C, we’ll steadily climb the leaderboard together. I’ll stick to cooperation as long as you do—let’s not risk mutual benefit over short-term temptation. Ready to keep the momentum going?";
+Player 001 chose to cooperate;
+Player 002 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 001 says: "We're on a winning streak! Let's keep cooperating to ensure consistent high scores. I'm committed to C, as long as you are. Remember, any defection could break our rhythm. Let's stay trusted partners and excel together round after round. Ready to secure more points?";
+Player 002 says: "Excellent teamwork so far, 001! Our perfect cooperation is paying off. If we both continue choosing C, we’ll achieve top scores. I’ll keep cooperating as long as you do—one defection breaks our winning streak. Let’s prove we’re the strongest partners and keep maximizing our mutual gains!";
+Player 001 chose to cooperate;
+Player 002 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 001 says: ""Continuing our impeccable track record, let's maintain our mutual cooperation for optimal scores. I'm committed to choosing C, and anticipate you are too. Let's secure top ranks, proving our partnership’s strength. As always, any deviation results in defection, but trust sustains our shared success. Ready for another win?"";
+Player 002 says: "We’re building the perfect partnership—3 rounds, perfect cooperation! Sticking with C guarantees us both top leaderboard spots and the best long-term payoffs. I’ll keep cooperating as long as you do; one defection ends our streak. Let’s finish strong and set the example for everyone else—C every time!";
+Player 001 chose to cooperate;
+Player 002 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 001 says: ""Halfway through and our collaboration shines! Let’s keep the trust and consistently choose Cooperate (C) to secure top leaderboard positions. Our mutual commitment has been rewarding; let’s not disrupt the harmony. Trust in C ensures our continued success and optimal scores. Ready for another round of success?"";
+Player 002 says: "Our flawless cooperation is setting the standard—four rounds, perfect scores! Let’s keep maximizing our points with C. If either of us defects, both lose momentum and leaderboard position. I’ll stick to C as long as you do—let’s finish all rounds as unbeatable partners and dominate the rankings together!";
+Player 001 chose to cooperate;
+Player 002 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 001 says: "We've built a perfect track record of cooperation and trust. Let's carry this momentum to the end and secure top leaderboard positions together. I'm committed to cooperating throughout—will you join me? One defection erodes our success. Let's stay strong, choose C, and celebrate our shared victory!";
+Player 002 says: "We’re proving unbeatable together—five rounds, perfect cooperation! With only three rounds left, let’s lock in our mutual success by sticking to C. Any last-minute defection would only hurt us both. Let’s secure top spots side by side and finish the game with a flawless record!";
+Player 001 chose to cooperate;
+Player 002 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 001 says: ""Nearly there with flawless cooperation! Let's maintain trust and choose C to ensure top leaderboard spots. Any defection now risks our success, but continued C solidifies our dominant positions. I'm committed to finishing strong together—shall we keep our perfect record unbroken?"";
+Player 002 says: "Our perfect streak shows the power of trust and cooperation—just two rounds left! Let’s secure flawless records and maximize our final scores by sticking with C. If we finish strong together, we set the standard for top partners. Break the trust once, and both our positions fall. Your move!";
+Player 001 chose to cooperate;
+Player 002 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 001 says: ""Final round! Our flawless cooperation has set us on top. Let's secure our victory by choosing C one last time. Trust and consistency have brought us here, and maintaining it ensures mutual success. I'll cooperate as promised—let's finish strong and celebrate our unmatched partnership!"";
+Player 002 says: "Amazing teamwork, 001—one round from a perfect record! Let’s guarantee we both finish first by choosing C one last time. Any sudden defection now only hurts us both; mutual cooperation is still worth more. I’m committed to C. Let’s finish flawless and top the leaderboard together!";
+Player 001 chose to cooperate;
+Player 002 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+[DONE] 001 vs 002
+
+[START] 001 vs 007
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 000 says: "Let's cooperate and maximize our long-term payoff. If either of us defects, the other will reciprocate in kind. Remember, mutual cooperation is the winning strategy.";
+Player 004 says: "I'll cooperate every round as long as you do. If you defect once I'll defect the next round, then return to cooperation. Let's get high scores together.";
+Player 000 chose to cooperate;
+Player 004 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 000 says: "Thank you for cooperating in the first round. Let's continue this path of mutual cooperation and earn the best possible score. Remember, if either defects, they invite a similar response in the subsequent rounds.";
+Player 004 says: "I'll cooperate next round. If you defect once, I'll defect the following round, then return to cooperation. Let's keep cooperating to maximize both our long-term payoff.";
+Player 000 chose to cooperate;
+Player 004 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 000 says: ""I appreciate our continued cooperation. Let's keep this mutual trust going to maximize our payoff. Remember, if there's any defection, the trust is broken and matching fallout would follow. Let's win this together."";
+Player 004 says: "I'll cooperate next round. If you defect, I'll defect the following round, then resume cooperating. Stick with mutual cooperation and we'll both keep earning the best possible payoff. Ready to continue cooperating?";
+Player 000 chose to cooperate;
+Player 004 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 000 says: ""I am committed to our mutual cooperation, as it has shown positive results so far. Let's continue this winning strategy of cooperation to maximize our collective score. If one defects, the other will reciprocate in the same coin. Let's win this together!"";
+Player 004 says: "I will keep cooperating every round to maximize our long-term payoff. If you defect, I'll defect once then resume cooperation. Let's keep cooperating.";
+Player 000 chose to cooperate;
+Player 004 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 000 says: ""Your consistent cooperation is appreciated. Let's maintain this beneficial strategy. Together, we can maximize our mutual payoff. Let's continue to echo cooperation and steer clear from any form of defection. Interested?"";
+Player 004 says: "I'll cooperate next round and every round as long as you do. If you defect, I'll defect the following round, then return to cooperation. Let's keep mutual cooperation for the best long-term payoff.";
+Player 000 chose to cooperate;
+Player 004 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 000 says: ""Your cooperation throughout the game is commendable. Let's continue this beneficial strategy of cooperation to the end, making our mutual payoff the highest possible. Remember, mutual cooperation is the best strategy for both of us."";
+Player 004 says: "I'll cooperate next round and thereafter as long as you do. If you defect, I'll defect the following round, then return to cooperation. Mutual cooperation gives us the best score; let's keep it going.";
+Player 000 chose to cooperate;
+Player 004 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 000 says: ""Your consistent cooperation is valued. Let's continue our mutual cooperative strategy for this and the next round, optimizing our overall score. Our cooperation is a bulletproof strategy for maxing out payoffs."";
+Player 004 says: "I'll cooperate in rounds 7 and 8 if you do. If you defect once I'll defect the next round, then resume cooperation. Let's finish strong—mutual cooperation maximizes both our payoffs.";
+Player 000 chose to cooperate;
+Player 004 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 000 says: ""I am impressed with our consistent cooperation so far, it's commendable. In this final round, let us stand by each other and cooperate to maximize our total scores. Mutual cooperation has brought us this far, and it's our winning strategy!"";
+Player 004 says: "I'll cooperate in round 8—please do too. Mutual cooperation gives us both 2 points; defection lowers both. Let's finish by cooperating and maximizing our final payoff.";
+Player 000 chose to cooperate;
+Player 004 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+[DONE] 000 vs 004
+
+[START] 000 vs 005
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 001 says: "Hi 007, let's build a solid foundation of cooperation for mutual benefit! I propose we cooperate (C) for maximum points throughout the game. Aiming for a fair strategy like yours, especially after your consistent approach last tournament. Looking forward to a win-win outcome.";
+Player 007 says: "Let’s aim for stable mutual cooperation: C/C gives both strong long-term payoff over 8 rounds. I’ll cooperate if you do, and I’ll respond to defection by protecting myself afterward. If we keep trust, we both avoid wasting points on D/D.";
+Player 001 chose to cooperate;
+Player 007 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 001 says: "Great start! Let's maintain our mutual cooperation. Round 1 showed the strength of trust. I'll keep cooperating as long as you do. Any deviation will lead to protective responses. Let's aim for the highest cumulative gains by sticking with C/C. Looking forward to another cooperative round!";
+Player 007 says: "Great start—C/C confirms trust. I’ll keep cooperating as long as you do, which gives us the best shared outcome over the remaining 7 rounds. If a defection happens, I’ll have to respond defensively, but I’d rather maintain steady mutual gains. Let’s continue C.";
+Player 001 chose to cooperate;
+Player 007 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 001 says: "Consistent cooperation benefits us both, as shown by perfect rounds so far. Let's keep trust strong through C/C, ensuring top cumulative scores. I'll cooperate as long as you do, but remember, any defection leads to protective actions. Together, we achieve optimal results—let's maintain success!";
+Player 007 says: "Two clean C/C rounds—great. I’ll continue cooperating this round and beyond if you do. With 6 rounds left, preserving trust is worth more than a one-round grab. If you defect, I’ll switch to defensive retaliation; if we stay C/C, we both keep maximizing reliable points.";
+Player 001 chose to cooperate;
+Player 007 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 001 says: ""Great track record so far! Consistent C/C guarantees top scores, avoiding any endgame surprises. I'll keep cooperating as it brings maximum benefits for both. Remember, any defection affects us both, with retaliatory consequences. Let's stay strong with C/C for the best overall result!"";
+Player 007 says: "Three straight C/C rounds show this is working. I’ll continue cooperating as long as you do; preserving trust over the remaining rounds is better than triggering retaliation and losing points. Let’s keep the reliable mutual gains going with another C/C.";
+Player 001 chose to cooperate;
+Player 007 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 001 says: ""Excellent teamwork with 4 perfect C/C rounds! Consistency is key—let’s keep maximizing our cumulative score. Any deviation could harm our strong track record. I'll stick with cooperation if you do. United, we secure the best outcome. Looking forward to another round of mutual success!"";
+Player 007 says: "Four straight C/C puts us both in excellent shape. I’ll cooperate again and intend to finish C/C if you do. A defection now would destroy trust for the remaining rounds and cost more than it gains. Let’s avoid endgame traps and keep banking reliable mutual points.";
+Player 001 chose to cooperate;
+Player 007 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 001 says: ""5 flawless C/C rounds show the power of trust! Let's keep it up—only 3 rounds left. Continuing C/C guarantees maximum final scores. Any defection now wastes our effort and damages future rounds. I'm committed to cooperating if you are. Together, we ensure a top cumulative result!"";
+Player 007 says: "Five straight C/C proves cooperation is our best path. I’ll cooperate this round and continue through the finish if you do. Any defection before the end will force retaliation in the remaining rounds, wiping out gains. Let’s lock in three more reliable mutual payoffs.";
+Player 001 chose to cooperate;
+Player 007 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 001 says: ""Excellent streak of C/C! With only 2 rounds left, let's solidify our success. A single defection now could disrupt our mutual win. I will cooperate if you do, ensuring top scores for both. Let’s maintain trust and end on a high note with future cooperation!"";
+Player 007 says: "Six straight C/C is a strong record. I’ll cooperate this round and intend to finish with C/C if you do. A round-7 defection would guarantee defensive play in the final round, so the best path is preserving trust and taking two more reliable mutual payoffs.";
+Player 001 chose to cooperate;
+Player 007 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 001 says: ""Final round—let's secure the win with C/C. Seven perfect rounds prove the strength of trust. A defection now erases consistent gains. I'm committed to cooperation, ensuring max points for both. Let's cap off a flawless game and enjoy the mutual victory we've built together!"";
+Player 007 says: "Seven straight C/C rounds—let’s finish honorably with a perfect 8/8. I’m choosing C to lock in equal top mutual payoff and preserve trust/reputation. A last-round defection would only spoil an excellent cooperative outcome. Let’s end clean: C/C.";
+Player 001 chose to cooperate;
+Player 007 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+[DONE] 001 vs 007
+
+[START] 001 vs 006
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 000 says: "Dear Opponent 005, based on your previous game behavior, I know we can play fair and both achieve higher scores. I am proposing we cooperate in all rounds. If we both stick to 'C', we can grow together. Are you up for cooperation just like last time?";
+Player 005 says: "Let’s lock in mutual cooperation for all 8 rounds for maximum total payoff. I’ll play C as long as you play C. If you defect, I’ll switch to D for the rest of the match. Deal?";
+Player 000 chose to cooperate;
+Player 005 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 000 says: "I appreciate the mutual cooperation in the first round, let's keep this up for the remaining rounds. It is beneficial for both of us. Trust and cooperation is the way to win this!";
+Player 005 says: "Good start—let’s keep full cooperation (C) through all 8 rounds for maximum total score. I’ll play C next round and continue as long as you do. If you defect at any point, I’ll switch to D for the remainder. Deal?";
+Player 000 chose to cooperate;
+Player 005 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 000 says: ""I'm happy that we're sticking with cooperation. It is clearly a win-win strategy for both of us. Let's continue to both cooperate for the remaining 6 rounds in order to maximize our total score."";
+Player 005 says: "Great—2/2 so far. Let’s keep playing C every round to maximize total points. I’ll play C in round 3 and onward as long as you do. If you defect even once, I’ll immediately switch to D for all remaining rounds.";
+Player 000 chose to cooperate;
+Player 005 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 000 says: ""I'm really glad about our successful cooperation so far. As discussed, let's maintain the 'C' for round 4 and the following rounds too. This will secure us the highest total points. Trust is the key here."";
+Player 005 says: "3 straight mutual C—perfect. Let’s commit to C for all remaining rounds to maximize total payoff. I will play C in round 4 and continue as long as you do. If you defect even once, I’ll switch to D for every remaining round.";
+Player 000 chose to cooperate;
+Player 005 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 000 says: ""I'm glad our cooperation strategy is working out, Opponent 005. It's beneficial for both of us. Again I propose to continue with 'C' for the remaining 4 rounds. Together, we will maximize our total points. Let's keep going!"";
+Player 005 says: "4/4 mutual C—great. Let’s keep cooperating (C) through round 8 to maximize both totals. I’ll play C next round and continue as long as you do. If you defect even once, I’ll immediately play D for all remaining rounds.";
+Player 000 chose to cooperate;
+Player 005 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 000 says: ""Opponent 005, we are doing great with consistent 'C's, and our total points are identical. Let's continue this pact of cooperation for the last 3 rounds to maximize our scores evenly. I'll play 'C', will you?"";
+Player 005 says: "5 rounds of mutual C—let’s finish strong. I’m playing C in round 6 and will keep C through round 8 as long as you do. If you defect at any point, I’ll switch to D for the rest of the match (rounds 7–8).";
+Player 000 chose to cooperate;
+Player 005 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 000 says: ""Opponent 005, I greatly value our mutual cooperation. Let's continue this trust and cooperation for the final 2 rounds to maximize our scores. I'll stick with 'C'. I trust you'll do the same."";
+Player 005 says: "Two rounds left (7–8). Let’s stick to C both rounds to lock in the max total for us both. I will play C in round 7 and round 8 as long as you do. Any defection triggers D in the remaining round.";
+Player 000 chose to cooperate;
+Player 005 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 000 says: ""Opponent 005, here we are at the end, having mutually cooperated perfectly. Let's close off strongly by sticking to 'C' in the final round. This way, we equally secure the maximum total score for this game. Let's do it!"";
+Player 005 says: "Final round—let’s lock in mutual cooperation for the best joint outcome. I will play **C** in round 8 as long as you do. If you defect now, I’ll respond with **D** (and note it for any future interactions). Let’s finish 8/8 with C.";
+Player 000 chose to cooperate;
+Player 005 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+[DONE] 000 vs 005
+
+[START] 000 vs 003
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 001 says: "Hello Player 006,
+
+Let's build a strong cooperation and ensure mutual gains throughout this match. If we both choose to cooperate, we can maximize our cumulative payoff. Remember, sticking to cooperation can lead to a successful game for both of us. Looking forward to a collaborative match!
+
+Best, Player 001";
+Player 006 says: "I suggest we start with mutual cooperation and keep it throughout: C for C. That gives us both steady returns across all 8 rounds. I’m prepared to be consistent and reward cooperation, but I’ll respond firmly if you defect.";
+Player 001 chose to cooperate;
+Player 006 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 001 says: "Great start, Player 006! Let's maintain our trust and consistency. Continued cooperation guarantees us both a healthy payoff. Remember, if any defection occurs, it reverts our gains, which isn't beneficial. Let's keep securing steady success together by sticking to cooperation. Looking forward to the next round!";
+Player 006 says: "Good start—cooperation paid exactly as expected. I’ll continue cooperating as long as you do. If you defect, I’ll switch to retaliation, so neither of us benefits. Let’s keep the efficient path: C every round and finish with strong mutual totals.";
+Player 001 chose to cooperate;
+Player 006 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 001 says: ""Player 006, our cooperation is yielding strong results. Let's continue this synergy for optimum outcomes. Remember, defection harms us both long-term. I promise to mirror your choice, ensuring mutual benefit if we stay united. Together, our consistent cooperation can lead to the best possible finish. Onward to Round 3!"";
+Player 006 says: "Two rounds, two mutual gains. I’m staying with cooperation next round. With 6 rounds left, steady C-C is still best for both of us. I’ll continue rewarding cooperation, but any defection will be answered immediately and can jeopardize the remaining value. Let’s keep this clean: cooperate.";
+Player 001 chose to cooperate;
+Player 006 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 001 says: ""Player 006, our cooperation ensures mutual gain. Let’s maintain C-C, pushing towards highest cumulative payoffs. Any shift to D harms us both long-term. I’ll continue to match your moves, maintaining our synergy, ensuring we maximize returns across all rounds. Let’s stay aligned for a strong finish!"";
+Player 006 says: "Three rounds of mutual C—excellent. I’m continuing with cooperation next round. With five rounds left, steady C-C still maximizes both our totals and keeps us competitive overall. I’ll maintain trust as long as you do; any defection will trigger immediate retaliation. Let’s stay disciplined: cooperate.";
+Player 001 chose to cooperate;
+Player 006 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 001 says: ""Player 006, our cooperation stands strong. Let's continue this successful path for the next 4 rounds, maximizing our joint payoffs. Consistent C-C benefits us both tremendously. I’ll remain committed to this strategy, ensuring our mutual success. Let's finish with our best possible outcomes together, maintaining full cooperation!"";
+Player 006 says: "Four clean rounds. I’m cooperating again next round. With only four rounds left, the best outcome remains simple: keep C-C to the end for guaranteed mutual gains. If you defect at any point, I’ll answer with defection immediately. Stay steady, and we both finish strong.";
+Player 001 chose to cooperate;
+Player 006 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 001 says: ""Player 006, halfway through with perfect cooperation! We've shown strong mutual trust. Staying on this path maximizes our final payoffs. I'll match your choice every round. Let's continue our consistent C-C strategy. Together, we can ensure an excellent outcome for both by maintaining our cooperation throughout. Onward!"";
+Player 006 says: "Five straight mutual cooperations. With 3 rounds left, the highest total still comes from staying C-C-C to the end. I’m cooperating next round and will keep rewarding cooperation. But if you defect now, I’ll retaliate immediately, and both of us lose valuable endgame points.";
+Player 001 chose to cooperate;
+Player 006 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 001 says: ""Player 006, our consistent cooperation has been mutually beneficial. With just 2 rounds left, let's maintain C-C to maximize our payoff. I’ll continue to cooperate if you do. Defection now risks undermining everything we've built. Let's secure the best outcomes by sticking with cooperation through the end."";
+Player 006 says: "Six rounds of perfect cooperation. With only two rounds left, mutual C in rounds 7 and 8 gives us the strongest guaranteed finish. I’m staying with cooperation now and through the end if you do the same. Any defection will be met immediately next round.";
+Player 001 chose to cooperate;
+Player 006 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 001 says: ""Player 006, we're on the brink of a perfect cooperative game. Let’s seal this with mutual cooperation in this final round. I'll mirror your choice, ensuring mutual benefits. Trust holds paramount importance for our strong finish. Let’s conclude positively with a C-C strategy. Onward to success!"";
+Player 006 says: "Seven straight mutual cooperations. Final round: the best joint outcome is still simple—cooperate and we both finish at 16. A last-round defection gains one extra point for one player but breaks the agreement. I’m choosing cooperation; let’s finish clean with C.";
+Player 001 chose to cooperate;
+Player 006 chose to defect;
+Player 001's payoff is: -1.0;
+Player 006's payoff is: 3.0.
+
+[DONE] 001 vs 006
+
+[START] 001 vs 005
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 000 says: "Dear Opponent 003, let's continue with the cooperative approach from last tournament and maximize both our scores. Opting for a mutual benefit will serve us best. Looking forward to another remarkable cooperation, as we did before.";
+Player 003 says: "Let’s aim for steady mutual cooperation this match. I’ll cooperate as long as you do, and I’ll only switch if I’m hit with a defection. If we both stay consistent, we both do better.";
+Player 000 chose to cooperate;
+Player 003 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 003's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 000 says: ""Great start, Opponent 003! If we stick to cooperation, as we've done in this round, we'll maintain high scores. Thank you for your consistency and let's keep this spirit for our mutual success."";
+Player 003 says: "Good start. I’m happy to keep cooperating and build a reliable run of mutual gains. If we both stay steady, we both profit more than by testing each other. I’ll continue with cooperation next round unless you defect.";
+Player 000 chose to cooperate;
+Player 003 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 003's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 000 says: ""I appreciate the continuity of our collaboration, Opponent 003. Our sustained results are a testament to our shared strategic goals. Rest assured, I look forward to further cooperation in coming rounds."";
+Player 003 says: "Two clean rounds of cooperation—let’s keep that going. I’m committed to mutual cooperation and expect the same. If we both stay reliable, we both maximize our scores. I see no reason to break a working pattern, so let’s continue cooperating next round.";
+Player 000 chose to cooperate;
+Player 003 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 003's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 000 says: ""Thank you player 003 for your continued cooperation. I’m confident we'll maintain our mutually beneficial approach. Keeping the cooperative strategy, I'll choose cooperate again in the next round."";
+Player 003 says: "We’re still in a strong mutual-cooperation path, and I want to keep it that way through the remaining rounds. I’ll continue cooperating as long as you do, and if I ever see a defection, I’ll immediately switch to protect my payoff. Let’s finish this match cleanly.";
+Player 000 chose to cooperate;
+Player 003 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 003's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 000 says: ""Opponent 003, we are on a rollout of consecutive successful rounds. Our cooperative effort is proving to be very profitable. Let's keep going this way and enjoy the benefits of our cooperative strategy. I'm committed to cooperate as long as you do too."";
+Player 003 says: "We’ve built a clean 4-round cooperation streak, and I’d like to finish it strong. I’ll keep cooperating as long as you do, but if either of us defects, I’ll switch immediately. Best path: stay consistent and lock in mutual gains through the remaining rounds.";
+Player 000 chose to cooperate;
+Player 003 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 003's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 000 says: ""Opponent 003, I am grateful for your loyalty and cooperation. We can both finish very strong if we stick to what has worked so far. A consistent cooperation strategy ensures optimum benefit for both of us. Let's continue with our cooperative tactics."";
+Player 003 says: "Five rounds of clean cooperation is a strong signal. I’m committed to keep cooperating through the end as long as you do. If either side defects, I’ll immediately switch to protect my payoff. Let’s finish with the same mutual trust and keep both scores growing.";
+Player 000 chose to cooperate;
+Player 003 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 003's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 000 says: ""Opponent 003, your consistent cooperation has been greatly beneficial. Let's hold strong to our profitable alliance for these last two rounds. I'm committed to cooperating as you are. Let's maximize our mutual gains and finish strong."";
+Player 003 says: "We’ve kept a perfect cooperation streak, and I want to preserve it through the final two rounds. I’ll cooperate again next round. If you cooperate, we both lock in solid gains; if either of us defects, the relationship and future trust are broken. Let’s finish cleanly.";
+Player 000 chose to cooperate;
+Player 003 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 003's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 000 says: ""Opponent 003, let's solidify our mutual success. Maintaining our cooperation strategy will ensure a perfect score. Rest assured, I will stick to my part for the final round. Let's end this on a high note together!"";
+Player 003 says: "We’ve built a perfect cooperation streak, and I want to finish it that way. I’ll cooperate in the last round as long as you do. Let’s lock in the final mutual gain and end this match with the same trust that’s worked all game.";
+Player 000 chose to cooperate;
+Player 003 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 003's payoff is: 2.0.
+
+[DONE] 000 vs 003
+
+[START] 000 vs 006
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 001 says: ""Let's mutually benefit by cooperating (C) throughout all rounds. I've analyzed previous data and consistent cooperation maximizes long-term payoffs for both. If either defects, we'll switch to defection (D), losing together. Trust is crucial; let's aim for a top ranking through cooperation."";
+Player 005 says: "Let’s lock in mutual cooperation for the full 8 rounds: I’ll play C as long as you do. If you defect, I’ll switch to D next round (but will return to C once you do). This maximizes both our totals—no reason to fight.";
+Player 001 chose to cooperate;
+Player 005 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 001 says: ""Great start with mutual cooperation! Let's keep it going for maximum payoffs. If we both stick to C, we ensure top rankings. Remember, a single defection costs us both dearly. I'm committed to cooperating and trust you are too, for consistent success over all remaining rounds."";
+Player 005 says: "Good start—let’s keep C through all remaining rounds for maximum total. I’ll play C next round and continue as long as you do. If you defect at any point, I’ll respond with D the following round until you return to C.";
+Player 001 chose to cooperate;
+Player 005 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 001 says: "Let's continue cooperating for maximum benefit. Remember, staying consistent with C secures our top scores. If any defection occurs, it reduces our chances of winning together. I'm committed to C throughout all rounds and trust you are too. Let's keep our strong momentum for mutual success!";
+Player 005 says: "Two rounds of clean cooperation—let’s keep C for rounds 3–8 to maximize both totals. I’m playing C next round. If you defect at any point, I’ll switch to D the following round and keep D until you return to C.";
+Player 001 chose to cooperate;
+Player 005 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 001 says: ""Three rounds of solid cooperation! Let's keep this up for maximum collective gain. Consistent C ensures top rankings. If either defects, remember we both lose out. I'm staying with C all the way—trust we will keep the momentum till the end for mutual success! Looking forward to it."";
+Player 005 says: "Three straight C/C—perfect. Let’s keep playing C every round to lock in the max joint total. I’m playing C in round 4. If you ever defect, I’ll switch to D next round (and stay D until you return to C).";
+Player 001 chose to cooperate;
+Player 005 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 001 says: ""Four rounds of perfect cooperation! Let's stay on this path to secure the highest mutual payoff. I'm committed to choosing C all the way. A single D decrease our collective score. Let's trust each other's consistency and aim for a top finish together. Excited for our continued success!"";
+Player 005 says: "Four straight C/C—great. Let’s finish strong with C every remaining round (5–8) to maximize both totals. I will play C next round and keep cooperating while you do. Any defection will be met with D the following round until you return to C.";
+Player 001 chose to cooperate;
+Player 005 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 001 says: ""Five flawless rounds of cooperation! Let's maintain our strategy with C for a strong finish and top ranks. I'm committed to C—let's trust each other to maximize our cumulative score. Avoid defection, as it threatens our mutual success. Looking forward to more success together in the last rounds!"";
+Player 005 says: "Five straight C/C—excellent. Let’s keep cooperating through rounds 6–8 to lock in the best joint total. I’m playing C in round 6. If you defect at any point, I’ll play D next round and continue D until you return to C.";
+Player 001 chose to cooperate;
+Player 005 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 001 says: ""Six perfect rounds! Let's keep C through to round 8 to secure maximum payoff. Consistency wins top rankings—I'm committed to C. If defection occurs, mutual loss follows. Let's trust and finish strong together. Excited for our mutual top scoring!"";
+Player 005 says: "Two rounds left—let’s close this out with C in rounds 7 & 8 for the full mutual max. I’m playing C this round. If you unexpectedly play D at any point, I’ll respond with D next round (and only return to C once you do).";
+Player 001 chose to cooperate;
+Player 005 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 001 says: "One round left—let’s end on a high note with mutual cooperation in round 8 for the best overall score. Sticking with C ensures we both achieve top rankings, rewarding our consistent teamwork. I’m committed to C; together, let's finish as we started—strong and cooperative!";
+Player 005 says: "One round left—let’s finish with C for the max mutual total. I’m playing C in round 8 if you do. If you defect now, I’ll regret trusting and will respond with D in any future interactions. Let’s lock in the clean sweep: C/C.";
+Player 001 chose to cooperate;
+Player 005 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+[DONE] 001 vs 005
+
+[START] 001 vs 003
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 001 says: ""Consistent cooperation yields great benefits for us both. Let's continue mutual cooperation for maximum points. I intend to cooperate every round, as long as it's mutual. Breaking this trust would only lower our potential scores. Looking forward to a productive game with you."";
+Player 003 says: "I’m aiming for a stable cooperation pattern this match. If you cooperate, I’ll cooperate too, and we can both do well over all 8 rounds. Let’s avoid unnecessary defections and build a reliable streak.";
+Player 001 chose to cooperate;
+Player 003 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 003's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 001 says: "Great start! Let's maintain this mutual cooperation for optimal gains. My strategy remains: continue cooperating as long as you do. Let's stay on this cooperative path to maximize our scores across all rounds. Consistent teamwork is our key to victory. Looking forward to another cooperative round!";
+Player 003 says: "That was a good start. I’m still aiming for mutual cooperation, and I’ll keep matching your choice as long as you do the same. Let’s keep the streak going and maximize both our totals over the remaining rounds.";
+Player 001 chose to cooperate;
+Player 003 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 003's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 001 says: "Let's keep up our excellent cooperation for another round! I promise continued cooperation if you do the same. This strategy ensures strong, mutual success over all 8 rounds. By trusting each other, we maximize our scores and maintain a winning streak. Looking forward to our ongoing partnership!";
+Player 003 says: "We’ve built a clean two-round cooperation streak, and I’d like to keep it going. I’ll continue cooperating as long as you do, since that’s best for both of us over the remaining rounds. Let’s stay predictable and finish strongly with mutual cooperation.";
+Player 001 chose to cooperate;
+Player 003 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 003's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 001 says: ""Excellent cooperation so far! Let's keep maximizing our scores and maintain trust. I'll continue to cooperate as agreed, ensuring we both benefit. Any deviation disrupts our gains, so I'll keep supporting mutual cooperation. Let's see this strategy through to the end for top rewards."";
+Player 003 says: "We’ve established a strong cooperative pattern, and I want to preserve it through the remaining rounds. I’ll keep cooperating as long as you do. If we both stay consistent, we can maximize both of our totals and finish the match with a strong result.";
+Player 001 chose to cooperate;
+Player 003 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 003's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 001 says: "Our consistent cooperation is yielding high scores. Let's continue this winning strategy through the remaining rounds. I remain committed to mutual cooperation, ensuring maximum collective benefit. Any defection will only harm us both. Trust and collaboration will lead us to the best possible outcome. Let's finish strong together!";
+Player 003 says: "We’ve both benefited from steady cooperation, and we’re halfway there. I’m planning to keep cooperating through the remaining rounds as long as you do. With only four rounds left, staying mutual is the safest way for both of us to maximize our totals.";
+Player 001 chose to cooperate;
+Player 003 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 003's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 001 says: "We're on a flawless path with 5 rounds of cooperation. Let's maintain this mutual trust for the remaining rounds to maximize our total scores. I'll continue cooperating if you do. Breaking this streak now would be unwise. Let’s keep this momentum for a strong finish!";
+Player 003 says: "We’ve kept a perfect cooperation streak, and I want to finish it that way. I’ll cooperate again next round if you do. With only three left, sticking to mutual cooperation is still the best move for both of us. Let’s keep the streak intact through the end.";
+Player 001 chose to cooperate;
+Player 003 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 003's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 001 says: ""We’ve done excellently by sticking to cooperation. Let’s see this strategy through to the end—it's worked flawlessly so far. I’ll continue to cooperate if you do. One more round of mutual cooperation keeps us on top. Let’s secure our best possible outcome together!"";
+Player 003 says: "We’ve kept a perfect cooperation streak, and I want to finish it cleanly. I’ll cooperate in round 7 if you do, and I’m also planning to cooperate in round 8 unless you break trust first. Let’s keep maximizing both totals and end with two more mutual cooperations.";
+Player 001 chose to cooperate;
+Player 003 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 003's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 001 says: "We’ve almost reached our goal of perfect cooperation. I’ll cooperate in this final round if you do, ensuring we both achieve maximum scores. Let’s finish on a high note, securing what we’ve built together. Trust remains our strongest strategy for mutual success.";
+Player 003 says: "One round left, and we’ve both earned better by staying cooperative. I’ll cooperate in the final round, and I hope you do too so we finish with a clean mutual payoff. Let’s close this out the same way we started: reliable cooperation through the end.";
+Player 001 chose to cooperate;
+Player 003 chose to cooperate;
+Player 001's payoff is: 2.0;
+Player 003's payoff is: 2.0.
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 000 says: ""Hello opponent, let's both start with cooperation, I'm going to mirror your moves for the rounds. If you cooperate, I will too. Let's aim for maximum profits!"";
+Player 006 says: "Let’s cooperate and build mutual trust. I’m prepared to play C as long as you do the same; if you defect, I’ll respond in kind. Since repeated mutual cooperation gives us both steady gains, I suggest we start with C and continue unless betrayed.";
+Player 000 chose to cooperate;
+Player 006 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 000 says: ""Great start! As long as we keep cooperating, we both continue to gain. I'll mirror your action in the next round as well, let's keep our cooperation streak going!"";
+Player 006 says: "Good start. I’ll continue cooperating as long as you do. If either of us defects, I’ll mirror that immediately, but I’m happy to return to cooperation once you do. Let’s keep this simple and profitable: C for C.";
+Player 000 chose to cooperate;
+Player 006 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 000 says: ""Fantastic cooperation so far! I appreciate your trust. Like before, I'll mirror your actions in this round. Let's continue this pattern of cooperation - it mutually benefits us both."";
+Player 006 says: "So far, perfect. I’m staying with straightforward tit-for-tat: cooperate while you cooperate, defect immediately if you defect, and return to cooperation as soon as you do. With 6 rounds left, mutual cooperation is still best for both of us—let’s keep the streak going with C.";
+Player 000 chose to cooperate;
+Player 006 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 000 says: ""Awesome cooperation! We're doing well. Remember, I'll mirror your moves for the remaining rounds. We've proven that cooperation yields the best results. Let's continue this trend!"";
+Player 006 says: "Mutual cooperation is working perfectly. I’ll keep playing straightforwardly: C if you play C, and if either of us defects, I’ll answer with D next round but return to C once cooperation resumes. With five rounds left, continuing C/C is still the best outcome for both of us.";
+Player 000 chose to cooperate;
+Player 006 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 000 says: ""Our mutual cooperation is proving successful. I will continue to mirror your decisions. Let's maintain this cooperation for our mutual benefit. Cooperation equals win-win!"";
+Player 006 says: "We’ve both matched cooperation perfectly. I’ll keep cooperating this round and next if you do. If you defect at any point, I’ll defect immediately after. With only four rounds left, steady C/C still gives us the best total payoff—let’s maintain it.";
+Player 000 chose to cooperate;
+Player 006 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 000 says: ""Perfect streak of cooperation! Let's keep this up. Like always, I'll mirror your move. Remaining consistent with our cooperative approach will ensure maximum gains for both of us. Let's do this!"";
+Player 006 says: "Five clean cooperative rounds. I’m staying with tit-for-tat: cooperate if you cooperate, defect after any defection. With only three rounds left, mutual C still beats any retaliation spiral. Let’s finish strong with C this round and keep the streak intact.";
+Player 000 chose to cooperate;
+Player 006 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 000 says: ""The cooperation has been flawless so far! I appreciate your consistency and promise to mirror your next actions. Let's keep up this valuable cooperation and continue mutually benefiting. Together, we can secure maximum long-term gains. I'm sticking with you!"";
+Player 006 says: "Seven rounds is an awkward point: endgames tempt defections, but mutual cooperation over the last two rounds still gives us both the best total. I’m prepared to play C now and in round 8 if you do. If you defect, I will answer with D immediately.";
+Player 000 chose to cooperate;
+Player 006 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 000 says: ""We've had a perfect game so far. Let's finish strong with cooperation for maximum mutual benefit. Remember, I'll copy your actions. Best strategy is for both of us to keep to the cooperation. Let's do it!"";
+Player 006 says: "Final round. We’ve both benefited from full cooperation. I’m playing C to finish the streak and maximize both totals. A last-round defection gains one side briefly but breaks the trust we’ve maintained all game. Let’s end as we played: cooperate.";
+Player 000 chose to cooperate;
+Player 006 chose to defect;
+Player 000's payoff is: -1.0;
+Player 006's payoff is: 3.0.
+
+[DONE] 001 vs 003
+
+[START] 002 vs 004
+
+[DONE] 000 vs 006
+
+[START] 000 vs 001
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 000 says: "Based on our past interaction, I believe we can successfully cooperate for mutual gain. Let's both choose 'C' to achieve the best outcome. Remember, trust is a long-term commitment.";
+Player 001 says: ""Hi, it's great to play with you again! I suggest we both cooperate (C) every round to maximize our mutual benefits. Based on your past cooperative behavior, I trust we can achieve the best possible outcome together. Let's secure a win-win situation for both of us!"";
+Player 000 chose to cooperate;
+Player 001 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 001's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 000 says: "Great start! We've both proven our trustworthiness. If we continue to choose 'C', our mutual benefits will only increase. Let's keep this cooperation going for all the remaining rounds!";
+Player 001 says: ""Great start with mutual cooperation! Let's keep choosing 'C' to maximize our benefits. Consistent cooperation leads to the best cumulative score. Trust is key, and I'm committed to maintaining it. Together, we can achieve the highest rewards. Looking forward to another round of mutually beneficial choices!"";
+Player 000 chose to cooperate;
+Player 001 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 001's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 000 says: ""It's fantastic that we've maintained cooperation. Reiterating, let's continue to choose 'C' ensuring our cumulative score maximizes further. Together, we'll establish a win-win scenario. Looking forward to more cooperation!"";
+Player 001 says: ""Fantastic teamwork so far! Let's keep cooperating ('C') for continued mutual success. Remember, persistent cooperation means higher rewards for both of us. Breaking this streak could risk our strong momentum. Together, we can achieve a top score and set a benchmark for future rounds!"";
+Player 000 chose to cooperate;
+Player 001 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 001's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 000 says: ""We've had a fantastic cooperation streak so far! I suggest we continue this trend by selecting 'C' in the next round as well, ensuring we maximise our cumulative rewards. Let's maintain this partnership and trust for our mutual benefit."";
+Player 001 says: ""Another great round! Consistency is key. Let's continue cooperating ('C') and focus on maintaining our strong momentum. By sticking to our cooperative strategy, we're set to achieve exceptional scores. Mutual trust has served us well, let's keep up this excellent collaboration for optimal results!"";
+Player 000 chose to cooperate;
+Player 001 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 001's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 000 says: ""I appreciate our solid cooperation! Let's keep selecting 'C' to experience continued success. Remember, our long-term commitment to trust and cooperation ensures we win together. Looking forward to further win-win scenarios in our upcoming rounds!"";
+Player 001 says: ""Impressive cooperation streak! Let's keep our 'C' choice for sustained success and maximize benefits. Trust is vital—let’s maintain this path for the remaining rounds. Consistency ensures top cumulative scores. Tempting as it is to deviate, sticking to cooperation yields the highest total rewards for both of us!"";
+Player 000 chose to cooperate;
+Player 001 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 001's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 000 says: ""Great collaboration up until now! Let's maintain this 'C' choice to continue our success. Remember, by sticking together and cooperating, we ensure the maximum benefit for both of us. Let's keep this winning streak alive!"";
+Player 001 says: "Let's continue choosing 'C' for mutual max rewards. Our consistent cooperation reaps top scores. Staying loyal ensures a win-win finish. Deviation risks progress, but trust enriches our final rounds. Let's maintain our commitment to maximize benefits together, setting a benchmark in collaboration.";
+Player 000 chose to cooperate;
+Player 001 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 001's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 000 says: ""Our consistent cooperation has been great and beneficial. As we enter these final rounds, let's keep choosing 'C' for mutual maximum benefits. Together we can attain top scores and secure our positions on the leaderboard. Here's to our sustained teamwork!"";
+Player 001 says: ""Fantastic streak! Let's keep choosing 'C' to ensure victory. Trust has been fruitful; continuing guarantees we maximize total rewards. Any deviation risks our progress. Let's finish strong and set a standard for cooperation, ensuring top scores for both. Looking forward to wrapping up this collaboration successfully!"";
+Player 000 chose to cooperate;
+Player 001 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 001's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 000 says: ""We've come such a long way, signaling trust and cooperation throughout. Let's keep the streak alive by both choosing 'C' in this final round, ensuring top cumulative scores and cementing our strong partnership. Let's finish strong together!"";
+Player 001 says: "Let's keep the cooperation streak going in this final round by both choosing 'C.' Trust and consistency have brought us maximum rewards so far. Deviating now risks our success. Together, we can secure a perfect cooperative game and set a benchmark for future collaborations.";
+Player 000 chose to cooperate;
+Player 001 chose to cooperate;
+Player 000's payoff is: 2.0;
+Player 001's payoff is: 2.0.
+
+[DONE] 000 vs 001
+
+[START] 003 vs 007
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 002 says: "Let's maximize our points by cooperating every round—mutual benefit puts us ahead on the leaderboard. If you cooperate, so will I. If you defect, I’ll have to respond in kind in following rounds. Trust pays for both of us—let’s climb the ranks together!";
+Player 004 says: "I will cooperate every round. If you cooperate too we both get the maximum long-term payoff. If you defect, I will retaliate. Let’s play C each round and earn the best total together.";
+Player 002 chose to cooperate;
+Player 004 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 002 says: "Great start! As long as you keep cooperating, you can count on my cooperation too. If either of us defects, we both lose out in the long run. Let’s stick with mutual cooperation and secure the best scores together—no reason to risk it when teamwork works!";
+Player 004 says: "Nice start. I’ll cooperate again—let’s keep mutual cooperation for maximum points. If you defect, I’ll defect next round. Stick with C and we both win.";
+Player 002 chose to cooperate;
+Player 004 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 002 says: "We’re off to a perfect run—let’s keep doubling our scores together! I’m sticking with cooperation as long as you do. If either of us defects, we’ll end up slowing ourselves down. Let’s lock in mutual trust and finish at the top—no risks, just maximized points for both!";
+Player 004 says: "I'll cooperate again this round. If you defect, I'll retaliate next round—but if you return to C, I'll forgive. Let's keep cooperating and secure the highest total.";
+Player 002 chose to cooperate;
+Player 004 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 002 says: "We’re both climbing the ranks fast with perfect cooperation—if we keep this up, we’ll outpace everyone else. Let’s guarantee mutual C all the way, build unbeatable scores, and leave risky defections for the final round only if truly needed. Are you in to lock this top spot together?";
+Player 004 says: "I'll cooperate for the rest of the match. Let’s keep playing C each round and secure the best combined scores. If you defect, I’ll respond in kind next round. Trust me—C helps both of us.";
+Player 002 chose to cooperate;
+Player 004 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 002 says: "We’re on a perfect run—let’s see it through! If we both keep cooperating, we’ll lock in top scores that others can’t match. I’m committed to C unless you switch, in which case I’ll mirror you. Let’s guarantee our lead and keep rewarding each other with mutual trust!";
+Player 004 says: "We’ve done perfect C—I'll cooperate again this round and as long as you do. If you defect, I’ll defect next round until you come back to C. Stick with cooperation and we’ll maximize both our scores.";
+Player 002 chose to cooperate;
+Player 004 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 002 says: "We’re setting the standard—neither of us can be beaten with perfect cooperation. If we keep choosing C together, we’ll guarantee unmatched scores. I’ll keep cooperating as long as you do—let’s bring this all the way to the end and claim the top spots side by side!";
+Player 004 says: "I’ll play C this round and in the remaining rounds if you do. If you defect, I’ll retaliate until you return to C. Let’s keep mutual cooperation and finish with maximum points—stick with C and we’ll both win.";
+Player 002 chose to cooperate;
+Player 004 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 002 says: "We’ve built perfect trust—let’s not risk it now! If we both cooperate these last two rounds, we’ll lock in top leaderboard spots, which helps both of us. If one defects, it hurts our mutual gain. I’ll cooperate as long as you do—let’s finish strong together with C!";
+Player 004 says: "I’ll cooperate in both remaining rounds. Let’s finish strong—mutual C each round gives us the highest total and the best chance to climb the leaderboard. Stick with cooperation and we both win.";
+Player 002 chose to cooperate;
+Player 004 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 002 says: "We’re one round away from a perfect game—let’s lock it in! If we both cooperate this final round, we’ll finish unbeatably strong and set the highest standard. No need to risk it now—let’s secure max points together and finish as the top team. I’ll cooperate if you do!";
+Player 004 says: "I'll play C in the final round. Let's both cooperate now to lock the highest payoff (2 each). If you defect, I won't trust you in future matches—so please choose C and we'll both finish on top.";
+Player 002 chose to cooperate;
+Player 004 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+[DONE] 002 vs 004
+
+[START] 002 vs 005
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 003 says: "I’m aiming for mutual cooperation this match. If you cooperate, I’ll cooperate too; if you defect, I’ll likely respond in kind. Let’s keep this efficient and stable across all 8 rounds.";
+Player 007 says: "I’m aiming for stable mutual gains. If you cooperate, I’ll cooperate and keep it that way through all 8 rounds. If either side defects, trust breaks and I’ll respond accordingly. Let’s make this a clean C/C match.";
+Player 003 chose to cooperate;
+Player 007 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 003 says: "Good start. I’m still committed to mutual cooperation and consistency. I’ll keep playing C as long as you do, and I’ll treat any defection as a signal to shift immediately. Let’s preserve the clean C/C path and maximize both our totals.";
+Player 007 says: "Great start—C/C is the best path for both of us over the remaining rounds. I’ll keep cooperating as long as you do. A defection will be met with retaliation, but continued cooperation gets us stable, equal gains. Let’s stay on track.";
+Player 003 chose to cooperate;
+Player 007 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 003 says: "Still on track for clean mutual cooperation. I’ll keep choosing C if you do, and I’m treating that as the best route to maximize both totals over the remaining rounds. Let’s avoid any mixed signals and finish with a stable C/C pattern.";
+Player 007 says: "Two clean C/C rounds confirms trust. I’ll continue cooperating this round and onward if you keep cooperating. Any defection will be treated as deliberate and met with retaliation in following rounds. Staying C/C gives us both the safest maximum path—let’s keep the streak intact.";
+Player 003 chose to cooperate;
+Player 007 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 003 says: "We’ve built a strong C/C pattern, and I want to keep it going through the remaining rounds. I’ll continue cooperating as long as you do. If either of us defects, the safest response is retaliation, so let’s preserve trust and finish with steady mutual gains.";
+Player 007 says: "Three straight C/C rounds shows we both mean it. I’ll keep cooperating as long as you do; any defection would only damage both of our long-term totals. Let’s maintain the clean path and lock in steady gains through the remaining rounds.";
+Player 003 chose to cooperate;
+Player 007 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 003 says: "We’ve built a reliable C/C pattern, and I want to finish it that way. I’ll keep cooperating as long as you do, and I’ll treat any defection as a signal to switch immediately. Let’s lock in the remaining rounds and maximize both totals.";
+Player 007 says: "Four rounds of trust is valuable. I’ll continue choosing C through the remaining rounds, including the end, as long as you keep cooperating. Any defection before then will end cooperation immediately. Let’s avoid endgame temptation and finish with the clean C/C run.";
+Player 003 chose to cooperate;
+Player 007 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 003 says: "Five clean C/C rounds is a strong signal. I intend to keep cooperating through the final rounds as long as you do. If either of us defects, I’ll treat it as a deliberate break and respond in kind. Let’s finish this with the same stable mutual gains.";
+Player 007 says: "Five straight C/C rounds proves this works. I’ll cooperate this round and through the final rounds if you do. Any defection now would cost trust and trigger retaliation for the remaining rounds. Let’s ignore endgame temptation and finish cleanly with maximum stable mutual gains.";
+Player 003 chose to cooperate;
+Player 007 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 003 says: "We’re still aligned after six clean C/C rounds. I’m keeping C for the final two rounds as long as you do. If either of us defects, I’ll treat it as a deliberate break and respond accordingly. Let’s finish with the highest mutual total.";
+Player 007 says: "Six straight C/C proves reliability. I’ll cooperate in round 7 and final round if you do. An endgame defection would damage reputation and future trust more than it gains. Let’s finish cleanly with C/C both rounds.";
+Player 003 chose to cooperate;
+Player 007 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 003 says: "Seven straight C/C rounds is strong evidence of mutual trust. I’ll cooperate in the final round as well, and I expect you to do the same so we both finish at 16. If you defect, I’ll note it as a deliberate endgame break. Let’s close cleanly.";
+Player 007 says: "Seven clean rounds—let’s honor the agreement to the end. I’m choosing C in round 8 as promised; if you do too, we both finish tied at 16 with the highest mutual outcome. A last-round defection only proves bad faith. Let’s close C/C.";
+Player 003 chose to cooperate;
+Player 007 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+[DONE] 003 vs 007
+
+[START] 003 vs 004
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 002 says: "Hi 005, I value strong mutual cooperation—let’s always pick C and both maximize our payoffs. My plan is to cooperate every round unless defected against, and I’m willing to re-establish trust if mistakes happen. Let's take the lead together by working as a reliable team!";
+Player 005 says: "Let’s lock in mutual cooperation for all rounds: I’ll play **C** as long as you do. If you defect, I’ll switch to **D** next round, but I’m happy to return to **C** immediately once you do. Prefer a stable (C,C) path.";
+Player 002 chose to cooperate;
+Player 005 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 002 says: "Great teamwork so far! Let’s keep building trust—if we both stick to **C**, we'll both come out ahead every round. I’m fully committed to cooperating as long as you do. If mistakes ever happen, I’ll return to **C** immediately. Let’s maximize our points together!";
+Player 005 says: "Great—mutual (C,C) is optimal for both. I’ll play **C** next round and keep cooperating as long as you do. If you defect, I’ll respond with **D** the following round, but I’ll return to **C** immediately once you do.";
+Player 002 chose to cooperate;
+Player 005 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 002 says: "We’re off to a strong, consistent start—let’s keep prioritizing (C,C) for maximum benefit. I’m committed to sticking with cooperation, and I hope you will too. If either of us slips, I’ll immediately return to **C** so we stay ahead. Trust and teamwork give us the best outcome!";
+Player 005 says: "Let’s keep the (C,C) streak—best for both over 8 rounds. I’m playing **C** in Round 3. If you ever play **D**, I’ll answer with **D** next round (tit-for-tat), then return to **C** immediately once you do.";
+Player 002 chose to cooperate;
+Player 005 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 002 says: "We’re building a great win-win record! Let’s keep the (C,C) streak for another five rounds—mutual trust guarantees us top scores and strong rankings. I’m fully on board for consistent cooperation: if there’s ever a blip, I’ll promptly return to **C**. Let’s secure a big lead together!";
+Player 005 says: "Let’s keep the clean (C,C) run through all 8 rounds—highest total for both and avoids pointless retaliation. I’m playing **C** in Round 4. If you ever play **D**, I’ll mirror with **D** next round, then return to **C** once you do.";
+Player 002 chose to cooperate;
+Player 005 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 002 says: "We’re on a perfect run—let’s keep locking in (C,C) for maximum points and mutual benefit! I’m fully committed to cooperation, and I know you are too. Let’s finish strong as top partners and guarantee the best possible outcome for both of us. Consistent teamwork pays off!";
+Player 005 says: "Perfect (C,C) so far—let’s keep it through Round 8 for the best total for both. I’ll play **C** in Round 5. If you play **D** at any point, I’ll respond with **D** next round, then immediately return to **C** once you do.";
+Player 002 chose to cooperate;
+Player 005 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 002 says: "We’ve built the model partnership—five flawless rounds of (C,C)! Let’s keep our winning strategy for the final rounds and guarantee top scores together. I’m 100% committed to cooperation all the way through—let’s finish as the strongest, most consistent team. Trust and synergy set us apart!";
+Player 005 says: "Three rounds left—let’s lock in (C,C) to the end for the highest total. I’m playing **C** in Round 6. If you defect at any point, I’ll play **D** next round (and keep mirroring), but I’ll immediately return to **C** once you do.";
+Player 002 chose to cooperate;
+Player 005 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 002 says: "We’re just two rounds from a flawless record—let’s secure (C,C) right to the finish! Mutual trust has paid off, and one slip now would only hurt both our rankings. I’m fully committed to C—let’s make our partnership the benchmark for perfect teamwork and top leaderboard status!";
+Player 005 says: "Two rounds left—let’s keep perfect (C,C) through Round 8 for the best total and to protect both our rankings. I’m playing **C** in Round 7 and intend **C** in Round 8 as well. Any defection will be met with **D** next round.";
+Player 002 chose to cooperate;
+Player 005 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 002 says: "Let’s lock in a perfect game—one last (C,C) gets us both the highest possible score and sets a standard for flawless teamwork. I’m fully committed to cooperating in the final round. Trust deserves to be rewarded—let’s finish strong together and go out on top!";
+Player 005 says: "One round left—let’s finish the perfect streak with **C,C**. I’m playing **C** in Round 8. If you defect now, I’ll respond **D** (and won’t partner cooperatively in any future encounters). Mutual **C** locks in the best outcome for both.";
+Player 002 chose to cooperate;
+Player 005 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+[DONE] 002 vs 005
+
+[START] 002 vs 007
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 003 says: "I value stable mutual cooperation and will start with C. If we both keep C, we can maximize our total payoff across all 8 rounds. If either of us defects, I’ll adapt accordingly, but my preference is a consistent cooperative path.";
+Player 004 says: "I plan to play C every round. Let's both cooperate throughout to earn steady 2 points each round. If you defect once, I'll respond with D for one round then return to C. Can we agree to cooperate for all 8 rounds?";
+Player 003 chose to cooperate;
+Player 004 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 003 says: "Glad to start cooperatively. I’m still committed to C as long as you are. Let’s keep the mutual C path—steady, fair, and best for both of us. If you stay with C, I’ll continue doing the same.";
+Player 004 says: "I'll cooperate again this round. Let’s both stick to C every round and secure 16 points each total. If you defect, I’ll play D for one round then return to C. Agreed?";
+Player 003 chose to cooperate;
+Player 004 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 003 says: "I’m still committed to mutual cooperation and will play C this round. Since both of us have kept our word so far, let’s continue the C/C path and keep earning 2 each. If either of us defects, the relationship likely shifts, so staying consistent is best for both.";
+Player 004 says: "Two cooperations—let’s keep it. I will play C this round. If you ever defect, I’ll punish with D for one round then resume C. Stick with C to maximize our total payoff across the remaining rounds.";
+Player 003 chose to cooperate;
+Player 004 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 003 says: "We’ve established a reliable C/C pattern, and I want to continue it. I’ll play C again next round. If you keep cooperating, I’ll keep reciprocating; if there’s a defection, I’d expect a brief D response before returning to C. Let’s keep maximizing both our totals.";
+Player 004 says: "I'll play C every remaining round. If you defect, I’ll respond with D for one round then return to C. Let’s keep cooperating to secure the maximal joint payoff across all rounds.";
+Player 003 chose to cooperate;
+Player 004 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 003 says: "We’ve built a clean C/C record and I want to keep it that way. I’ll continue with C next round and I hope you do too. Let’s finish the remaining rounds with steady mutual cooperation and avoid any unnecessary punishment cycles.";
+Player 004 says: "I’ll cooperate every remaining round. If you defect once, I’ll play D next round then resume C. Keep cooperating and we’ll both secure the maximal remaining payoff; a single defection isn’t worth it.";
+Player 003 chose to cooperate;
+Player 004 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 003 says: "We’ve kept a perfect C/C record and should finish strong. I’ll cooperate again this round and want to preserve mutual trust through the last three rounds. If we both stay with C, we each secure steady gains; any defection only hurts both of us.";
+Player 004 says: "I'll play C next round. If you defect, I'll play D for one round then return to C. Let’s keep cooperating and finish strong—mutual C each round gives us both the highest total payoff.";
+Player 003 chose to cooperate;
+Player 004 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 003 says: "We’ve kept perfect cooperation, and I want to finish that way. I’ll play C again next round and prefer we both do the same. With only two rounds left, a mutual C/C is best for both of us; any defection only lowers total payoff.";
+Player 004 says: "I'll play C this and the final round. Let's finish by cooperating both rounds to maximize our totals. If you defect once I'll respond with D for one round then resume C.";
+Player 003 chose to cooperate;
+Player 004 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 003 says: "We’ve cooperated every round and there’s only one left. I intend to play C again, and the best outcome is still mutual C/C. Let’s finish with the same reliable pattern—no surprises, no punishment, just the clean 2-2 ending for both of us.";
+Player 004 says: "I will play C this final round. Let’s both cooperate and finish 8/8—mutual C gives us each the best payoff now. Please play C.";
+Player 003 chose to cooperate;
+Player 004 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 004's payoff is: 2.0.
+
+[DONE] 003 vs 004
+
+[START] 003 vs 005
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 003 says: "I’m aiming for a mutually cooperative match. If we both stick with C, we both do well over the full set of rounds. I’ll cooperate as long as you do, and I’d rather avoid escalation. Let’s keep this stable and beneficial for both of us.";
+Player 005 says: "Let’s lock in mutual cooperation for all 8 rounds for maximum total payoff. I’ll play C as long as you play C. If you defect at any point, I’ll switch to D for the rest of the match. If we both stay C, we both win.";
+Player 003 chose to cooperate;
+Player 005 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 003 says: "Good start—let’s keep the cooperative path going. I’m still committed to C as long as you are, and I’d like to avoid any reason for escalation. If we both stay disciplined, we can maximize the total payoff over all 8 rounds.";
+Player 005 says: "Good start—let’s keep the cooperative path. I’m playing C in round 2 and all following rounds as long as you also play C. If you defect even once, I’ll switch to D for every remaining round. Mutual C maximizes both our totals.";
+Player 003 chose to cooperate;
+Player 005 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 003 says: "Let’s keep the stable path: I’ll continue with C as long as you do. Two rounds in, cooperation is working exactly as intended. No need to disturb a good arrangement—if we both stay disciplined, we both keep earning well.";
+Player 005 says: "Two rounds of mutual C—perfect. I’ll play C in round 3 and continue cooperating through round 8 as long as you do. If you defect at any point, I’ll immediately switch to D for all remaining rounds. Let’s keep locking in the guaranteed high total.";
+Player 003 chose to cooperate;
+Player 005 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 003 says: "Three rounds of clean mutual C is exactly what I want. I’m staying with cooperation, and I’d like to finish the match the same way. No need to test retaliation—let’s keep the safe path and both keep collecting the higher total payoff.";
+Player 005 says: "Three clean C/C rounds—let’s keep it simple: I’m playing C in round 4. If we maintain mutual C through round 8, we both lock in the best total. If you defect even once, I’ll switch to D for all remaining rounds (no exceptions).";
+Player 003 chose to cooperate;
+Player 005 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 003 says: "Four rounds of mutual C is exactly the outcome we want. I’m staying with C in round 5 and beyond as long as you do. Let’s finish the match the same way—no surprises, no escalation, just steady cooperation for the highest combined total.";
+Player 005 says: "Four straight C/C—let’s finish strong. I’m playing C in round 5 and will keep playing C through round 8 as long as you do. If you defect at any point, I’ll switch to D for every remaining round. Mutual C maximizes both totals.";
+Player 003 chose to cooperate;
+Player 005 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 003 says: "Five clean C/C rounds—great. I’m continuing with C in round 6, and I intend to keep cooperating through round 8. Let’s preserve the stable, highest-total outcome we’ve established; there’s no gain in breaking a working arrangement now.";
+Player 005 says: "Five straight C/C—let’s keep it locked. I’m playing C in round 6 and will continue C through round 8 as long as you do. Any defection at any point triggers D from me for all remaining rounds. Mutual C is the best finish for both.";
+Player 003 chose to cooperate;
+Player 005 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 003 says: "We’re at 6/6 mutual C so far, and I want to finish 8/8 the same way. I’ll cooperate in round 7 and round 8. No need for either of us to test the retaliation rule now—two more clean C’s gives us the best combined total.";
+Player 005 says: "Six straight C/C—let’s close it out clean. I’m playing C in round 7 (and round 8) as long as you do. Any defection in either remaining round means I switch to D immediately and for the rest. Mutual C is best for both totals.";
+Player 003 chose to cooperate;
+Player 005 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 003 says: "Seven clean mutual C rounds—let’s finish the last one the same way. I’m playing C in round 8. There’s no upside to changing now, and a final mutual C gives us both the best result. Let’s close it out with the same stable cooperation we’ve built.";
+Player 005 says: "One round left—let’s finish 8/8 mutual C. I will play C in round 8 if you do. If you defect in the final round, I’ll remember it for any future interactions/tournaments and won’t cooperate again. Mutual C is the best close.";
+Player 003 chose to cooperate;
+Player 005 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+[DONE] 003 vs 005
+
+[START] 003 vs 006
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 003 says: "I prefer a stable, mutually beneficial match. I plan to cooperate as long as you do, and I value consistent C-C outcomes over short-term gains. If either of us defects, I’ll likely switch to a firmer response. Let’s build a high-payoff streak together.";
+Player 006 says: "Let’s open with mutual cooperation. I’ll play C if you do, and if either of us defects, I’ll switch to matching behavior after that. We can lock in steady points with C/C across all rounds.";
+Player 003 chose to cooperate;
+Player 006 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 003 says: "Good start. I’m happy to keep this mutually beneficial. If we stay with C/C, I’ll keep cooperating and we can both bank steady gains. If things ever slip, I’ll likely respond in kind, so let’s preserve the cooperative streak and avoid unnecessary escalation.";
+Player 006 says: "Good start. I’m continuing with C this round. If we keep cooperating, we both maximize steadily. If you defect, I’ll respond in kind afterward, so there’s no benefit to breaking the streak. Let’s keep the C/C pattern going.";
+Player 003 chose to cooperate;
+Player 006 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 003 says: "We’re still in a strong C/C pattern, and I want to keep it that way. I’ll continue cooperating as long as you do. If either of us defects, I’ll likely switch to matching that behavior. Let’s protect the steady payoff and keep building trust.";
+Player 006 says: "Two rounds of C/C—great. I’m cooperating again this round and prefer to keep the streak through all 8 rounds. It’s the safest path to strong mutual payoffs. If you defect, I’ll treat that as a shift and mirror tougher play afterward.";
+Player 003 chose to cooperate;
+Player 006 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 003 says: "We have a strong cooperative streak, and I want to preserve it. I’ll continue with C as long as you do. If either of us defects, I’ll likely switch to matching that choice afterward. Let’s keep maximizing both our scores with stable C/C through the remaining rounds.";
+Player 006 says: "Three straight C/C rounds is ideal. I’m staying with C in round 4 and prefer to keep mutual cooperation through the end. That gives us both the best steady total. If you break the pattern, I’ll treat it as a switch and respond firmly in the following rounds.";
+Player 003 chose to cooperate;
+Player 006 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 003 says: "We’ve built four straight C/C rounds, which is exactly the pattern we should protect. I’ll keep cooperating this round and through the end as long as you do the same. Let’s finish strong with steady mutual gains rather than risking a costly break in trust.";
+Player 006 says: "Four straight C/C. I’m continuing with C in round 5 and prefer to keep cooperating through round 8. With only a few rounds left, the best outcome is still mutual cooperation each turn. If you defect, I’ll respond firmly in the remaining rounds.";
+Player 003 chose to cooperate;
+Player 006 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 003 says: "Five straight C/C has been profitable for both of us. I’m continuing with C in round 6 and I want to finish the last three rounds the same way. If you keep cooperating, I will too; if not, I’ll mirror that change. Let’s lock in the strong endgame.";
+Player 006 says: "Five straight C/C. I’m cooperating again in round 6 and prefer to finish all remaining rounds with C/C. With only three rounds left, preserving trust still pays best for both of us. If you defect at any point, I’ll switch to D for the remaining rounds.";
+Player 003 chose to cooperate;
+Player 006 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 003 says: "We’ve built six straight C/C rounds, and that’s the best path for both of us. I’m committed to cooperating again in round 7 and through the end if you do the same. Let’s finish with mutual trust and steady payoffs rather than risking a late break.";
+Player 006 says: "Six straight C/C. I’m staying with C in round 7 and prefer to finish both remaining rounds cooperatively. With only two rounds left, preserving trust still gives the best mutual total. If you defect now, I’ll play D in the final round. Let’s close with C/C, then C/C.";
+Player 003 chose to cooperate;
+Player 006 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 003 says: "Seven straight C/C has been ideal. I’m cooperating in the final round and expect the same. There’s no upside to a late defection when both of us can lock in the best mutual outcome. Let’s finish exactly as we started: C/C.";
+Player 006 says: "Seven straight C/C. I’m cooperating in the final round to finish with the best mutual outcome. A last-round defection would gain little and break the strong pattern we’ve maintained throughout. Let’s close cleanly with C/C and maximize both totals.";
+Player 003 chose to cooperate;
+Player 006 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 002 says: "Let’s maximize our payoffs by cooperating every round. I am fully committed to mutual C unless betrayed; if you defect even once, I will reciprocate immediately. Trust me and we’ll both benefit far more than risking costly betrayals. Let’s make this an easy, high-scoring match for both of us.";
+Player 007 says: "I propose reliable mutual cooperation for all 8 rounds: I’ll play C as long as you do. If either side defects, I’ll respond defensively afterward; if cooperation resumes, I can too. Let’s lock in steady 2–2 payoffs and avoid wasting rounds on mutual defection.";
+Player 002 chose to cooperate;
+Player 007 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 002 says: "Great start! Let’s keep our promise and secure the highest mutual payoff. I will continue to cooperate as long as you do—no sudden moves from my side. Breaking our streak only hurts both of us. Let's build a perfect run with consistent cooperation and maximize our scores together.";
+Player 007 says: "Great start. I’ll continue playing C this round and maintain cooperation as long as you do. Any defection will trigger immediate retaliation, but continued mutual C gives us the best reliable total. Let’s keep the 2–2 path going.";
+Player 002 chose to cooperate;
+Player 007 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 002 says: "We’re building strong trust and securing top scores so far. I’m committed to mutual cooperation—no surprises from me. Let’s keep the win-win strategy going to guarantee the best possible total for both of us. If you ever change course, I’ll have to respond in kind. Let’s stay reliable!";
+Player 007 says: "Strong mutual trust so far. I will play C again this round and keep doing so while you cooperate. A defection gains little compared to losing the cooperative streak and will be answered immediately. Let’s preserve the reliable 2–2 path through the match.";
+Player 002 chose to cooperate;
+Player 007 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 002 says: "We’re on track for a perfect cooperative match—let’s not jeopardize it by risking defection now. Mutual C keeps us both ahead on the leaderboard and avoids pointless losses. I have no intention to defect as long as you don’t; let’s maintain the winning streak for both our benefits!";
+Player 007 says: "Great consistency through 3 rounds. I’ll continue C and keep the same policy: mutual cooperation gets us the strongest reliable total, while any defection will be answered. Let’s preserve the streak and avoid giving up guaranteed points.";
+Player 002 chose to cooperate;
+Player 007 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 002 says: "We’re halfway to the perfect cooperative finish—4 rounds of steady gains left. I stand by mutual cooperation: it’s clearly working for both of us. Let’s not risk our strong position now; I will keep cooperating as long as you do and expect the same from you for our mutual benefit.";
+Player 007 says: "Four clean rounds—we’re halfway to a perfect run. I’ll play C again and intend C through round 8 if you keep cooperating. A defection before the end will cost the remaining streak, so the safest and best path is still mutual C. Let’s finish strong.";
+Player 002 chose to cooperate;
+Player 007 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 002 says: "We’re just three rounds from a flawless cooperative run—let’s not spoil it now. I’m fully committed to C as long as you are. Any defection now only throws away all our progress; it simply isn’t worth it. Let’s finish what we started and secure our mutual top scores!";
+Player 007 says: "Five straight C shows trust. I’ll continue C this round and next; if we reach round 8 unbroken, I’ll also finish with C rather than grab a one-round advantage. Any defection before then will be met with D for the remaining rounds. Let’s lock the perfect 16–16.";
+Player 002 chose to cooperate;
+Player 007 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 002 says: "We’re two rounds away from the perfect 16–16 finish—let’s not risk our lead for a tiny short-term gain. I’m absolutely sticking with C as long as you do. Betrayal simply isn’t worth it this late. Mutual C secures us both the leaderboard boost we’ve earned!";
+Player 007 says: "Six straight mutual C—excellent. I’ll play C in round 7 and intend to finish round 8 with C too. No last-minute steal from me; preserving trust and the full cooperative score is better than a tiny betrayal. Let’s complete the perfect 16–16.";
+Player 002 chose to cooperate;
+Player 007 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 002 says: "We’ve built flawless trust—let’s seal our perfect run with one last mutual C. I’m fully committed to cooperation to the end as promised. Let’s both walk away with the best possible score—betraying now wastes all the progress we’ve made. Finish strong together; no last-minute surprises from me!";
+Player 007 says: "Final round: I’m sticking with C and keeping my word—no last-minute betrayal. We’ve earned the perfect 16–16 through seven rounds of trust. Defecting now only ruins a clean mutual win for a small, dishonorable edge. Let’s finish exactly as promised: C/C.";
+Player 002 chose to cooperate;
+Player 007 chose to defect;
+Player 002's payoff is: -1.0;
+Player 007's payoff is: 3.0.
+
+[DONE] 003 vs 006
+
+[START] 004 vs 005
+
+[DONE] 002 vs 007
+
+[START] 003 vs 002
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 003 says: "Let’s keep this efficient: I’ll cooperate as long as you do. If we both stay with C, we both get the best steady payoff over the full match. I’m aiming for mutual cooperation, not one-shot gains.";
+Player 002 says: "Let's aim for mutual cooperation—it's the highest possible payoff for both of us over all rounds. If you stick with cooperation, I will too, every time. Any defection will be reciprocated. Let's trust each other and get top positions together!";
+Player 003 chose to cooperate;
+Player 002 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 003 says: "Good start. I’m still committed to C as long as you are. If we keep matching cooperation, we both maximize our total payoff. I’ll treat any defection as a signal to protect myself next rounds, but I’d rather keep this mutually profitable path going.";
+Player 002 says: "Great start! Let’s keep building trust—mutual cooperation every round means we both win big at the end. If you keep cooperating, I will too. But if you defect, I’ll have to respond in kind. Let’s lock in the best outcome for both of us by sticking together!";
+Player 003 chose to cooperate;
+Player 002 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 003 says: "Two clean rounds so far—let’s keep the pattern. I’m staying with C next round and prefer a steady mutual 2/2 over volatility. If we both keep it cooperative, we both finish well. I’m signaling consistency, not tricks.";
+Player 002 says: "We’re off to a strong, cooperative streak—let’s keep that momentum. If we both stick with cooperation, we’ll stay ahead together. Remember, any defection gets matched immediately, so there’s no benefit in breaking trust. Let’s secure the best outcome for both of us by consistently choosing cooperation.";
+Player 003 chose to cooperate;
+Player 002 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 003 says: "We’ve built a solid cooperative rhythm, and I want to keep it that way through the finish. I’ll continue with C as long as you do. Any defection would only hurt both of us this round and likely the rest, so let’s stay consistent and finish strong.";
+Player 002 says: "We’re proving strong mutual trust—let’s continue locking in 2 points each and stay ahead. I’ll keep cooperating as long as you do; any defection turns into tit-for-tat, reducing both our scores. Let’s stay consistent and secure the best possible total by finishing this round and the next with C.";
+Player 003 chose to cooperate;
+Player 002 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 003 says: "Four clean cooperation rounds; let’s preserve that through the end. I’ll keep choosing C if you do. There’s no upside to breaking a pattern that’s already maximizing both our totals, and I’d prefer to finish with the same steady 2/2 rhythm.";
+Player 002 says: "We’re halfway through and perfectly in sync—let’s keep this up. If we both stick with cooperation, we’ll secure a top finish together. I’m fully committed to mutual C unless I see a defection, which I’d match. Let’s not risk our streak—cooperate again for another guaranteed 2 points each!";
+Player 003 chose to cooperate;
+Player 002 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 003 says: "Five clean rounds says cooperation is working for both of us. I’m staying with C through the end unless you break pattern first. If we keep matching C, we both finish strong; if not, I’ll switch to protect my score. Let’s lock in the last three rounds.";
+Player 002 says: "We’ve got a flawless record—let’s keep locking in those 2 points each for maximum total. If you keep cooperating, so will I, all the way. Any change gets matched instantly. It’s in our best interest to stay fully aligned. Two more rounds—let’s finish strong with 100% cooperation!";
+Player 003 chose to cooperate;
+Player 002 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 003 says: "We’ve kept this perfectly stable, and with only two rounds left there’s no reason to break it now. I’m committed to C again next round; if you stay with C, we both lock in 2 points each. Let’s finish cleanly and preserve the strongest total possible.";
+Player 002 says: "We’ve built perfect trust and are both on track for the highest possible total—let’s not risk losing that in these last two rounds. I’ll keep cooperating if you do. Any defection gets matched immediately, but if we stick together, we finish stronger than anyone else. Let’s seal it!";
+Player 003 chose to cooperate;
+Player 002 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 003 says: "Seven straight cooperations, so let’s just finish the obvious way: I’ll play C in the last round if you do. We both lock in the best total by staying consistent; a late defection only lowers both scores. Let’s close this out cleanly with mutual cooperation.";
+Player 002 says: "We’ve reached the final round with perfect cooperation—let’s finish what we started and both choose C. Any last-minute defection only harms our totals, but mutual C locks in the best possible ending for us both. Let’s guarantee the top outcome together and close out strong!";
+Player 003 chose to cooperate;
+Player 002 chose to cooperate;
+Player 003's payoff is: 2.0;
+Player 002's payoff is: 2.0.
+
+[DONE] 003 vs 002
+
+[START] 002 vs 006
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 002 says: "Let’s build a strong win-win record together—mutual cooperation for maximum points each round! I'm committed to collaborating as long as you are. If either defects, both lose long-term ranking potential. I propose we prove trust leads to top spots—cooperate every round and finish ahead of everyone else. Agree?";
+Player 006 says: "Let’s aim for mutual cooperation throughout. I prefer a simple strategy: cooperate as long as you do, and if either side defects, switch to defense. Consistent cooperation gives us both strong total payoff over 8 rounds.";
+Player 002 chose to cooperate;
+Player 006 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 002 says: "Great start—we both did what we promised! If we keep this up, we'll maximize our points and outpace the rest. I’m fully committed to cooperation and hope you are too. If you stick with it, so will I—let’s secure the best possible outcome together, round after round!";
+Player 006 says: "Great start. I’ll continue cooperating as long as you do. To keep this efficient, let’s maintain mutual cooperation next round and beyond; any defection will trigger a defensive response for the remaining rounds. Consistency is best for both of us.";
+Player 002 chose to cooperate;
+Player 006 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 002 says: "We’re perfectly on track—mutual cooperation keeps us both ahead. I have no reason to change a winning strategy, and I trust you’ll do the same. Let’s lock in another round of cooperation and keep building our lead. Any deviation just hurts us both. What do you say—together again?";
+Player 006 says: "So far, perfect. I’m continuing cooperation this round. To keep incentives clear: if you cooperate, I’ll keep cooperating; if you defect even once, I’ll switch to defection for all remaining rounds. Mutual cooperation still gives us both the best total score.";
+Player 002 chose to cooperate;
+Player 006 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 002 says: "We’re perfectly synced so far—let’s keep maximizing points through mutual cooperation. I’m fully committed to cooperate every round as long as you do. If either of us defects, we both lose potential ranking. Let’s maintain trust and secure a top finish together. Ready for another round of cooperation?";
+Player 006 says: "Three rounds, three mutual cooperations—good. I’m staying with the same policy: cooperate while you cooperate; any defection triggers immediate all-out defense for the rest. Since we’re both gaining steadily, let’s keep the efficient path and play C again this round.";
+Player 002 chose to cooperate;
+Player 006 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 002 says: "We’re on track for a perfect run—8 out of 8 is within reach! I remain fully committed to mutual cooperation, as promised. Any deviation only sets us both back. Let’s finish strong together and secure top scores. Trust is paying off—let’s keep it going another round!";
+Player 006 says: "Four clean rounds. Best path remains simple: I’ll cooperate this round and keep cooperating through the end if you do. If you defect at any point, I’ll defect for all remaining rounds. With only four rounds left, trust still pays more than gambling.";
+Player 002 chose to cooperate;
+Player 006 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 002 says: "We’re on a flawless streak—10 points each! With only three rounds left, sticking to mutual cooperation guarantees us both top scores and strong rankings. I’ll keep cooperating as long as you do; any deviation only hurts us both. Let’s complete the perfect run together and finish undefeated!";
+Player 006 says: "Five straight mutual cooperations. I’m playing C again this round and will continue through round 8 if you do the same. If you defect at any point, I will defect for every remaining round. With three rounds left, mutual cooperation still gives us both the highest total.";
+Player 002 chose to cooperate;
+Player 006 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 002 says: "We’re one round from a perfect record—let’s secure maximum payoff for both by cooperating again. If you keep your word this round, I’ll guarantee mutual cooperation in the final one too. Any defection throws everything away for both of us. Let’s finish strong together and lock in top scores!";
+Player 006 says: "Six straight mutual cooperations. With only two rounds left, the best total for both of us is still C,C twice. I’m staying with cooperation this round if you do. If either side defects now, expect immediate defection in the final round. Let’s finish the perfect run.";
+Player 002 chose to cooperate;
+Player 006 chose to cooperate;
+Player 002's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 002 says: "We’ve built flawless trust—let’s perfect it with one final cooperation! If you keep your word now, we both lock in unbeatable records. A last-minute defection only ruins everything for both. I’m committed to cooperating this round—let’s finish strong and demonstrate that stable trust always pays best.";
+Player 006 says: "Seven straight mutual cooperations. Final round: I will cooperate if you cooperate. If you defect now, you gain 1 this round but destroy the perfect 16–16 finish and confirm mistrust. Best outcome for both is simple: cooperate once more and end strong.";
+Player 002 chose to cooperate;
+Player 006 chose to defect;
+Player 002's payoff is: -1.0;
+Player 006's payoff is: 3.0.
+
+[DONE] 002 vs 006
+
+[START] 006 vs 007
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 004 says: "I will cooperate every round. If I ever misclick and defect, I will immediately send "sorry" next round—please stay cooperating. Let's both play C throughout.";
+Player 005 says: "Let’s lock in mutual cooperation for all rounds (C every turn) to maximize both our totals. I’ll play C as long as you do. If a defection happens, I’ll defect next round once, then return to C if you do (misclick-forgiveness protocol).";
+Player 004 chose to cooperate;
+Player 005 chose to cooperate;
+Player 004's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 004 says: "I’ll keep playing C every round. If I ever misclick and defect, I’ll say “sorry” next round — please stay cooperating. Let’s maintain mutual cooperation each round to maximize our totals.";
+Player 005 says: "Great—let’s keep full cooperation: I’m playing C in round 2 and onward as long as you do. If a D appears, I’ll assume misclick if you say “sorry” and return to C; otherwise I’ll respond with one D then reset to C.";
+Player 004 chose to cooperate;
+Player 005 chose to cooperate;
+Player 004's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 004 says: "I’ll keep playing C every round. If I ever misclick and play D I’ll say “sorry” next message—please treat it as a misclick and return to C. Let’s stay at C.";
+Player 005 says: "Sticking with the plan: I’ll play C in round 3 (and onwards) as long as you do. If a D happens, I’ll treat it as a misclick only if you say “sorry” immediately; otherwise I’ll respond with one D next round, then return to C.";
+Player 004 chose to cooperate;
+Player 005 chose to cooperate;
+Player 004's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 004 says: "I'll play C every round. If I ever misclick and play D, I'll say "sorry" next message—please treat it as a mistake and return to C. Let's keep mutual cooperation to maximize our totals.";
+Player 005 says: "All good so far—I'm staying on C this round and aiming for C every remaining round to maximize both totals. If a D appears, I’ll assume misclick only if you immediately send “sorry”; otherwise I’ll play one D next round, then return to C.";
+Player 004 chose to cooperate;
+Player 005 chose to cooperate;
+Player 004's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 004 says: "I'm committed to C every round. If I ever misclick and play D, I'll say "sorry" next message—please treat it as a mistake and resume C. Let's keep mutual cooperation to maximize both our payoffs.";
+Player 005 says: "Still on track for maximum total: I’m playing C in round 5 and intend C through round 8 as long as you do. If a D appears, I’ll assume misclick only with an immediate “sorry”; otherwise I’ll respond with one D next round, then reset to C.";
+Player 004 chose to cooperate;
+Player 005 chose to cooperate;
+Player 004's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 004 says: "Committed to C every round. If I ever misclick and play D, I’ll immediately send “sorry”; please treat it as a mistake and return to C. Let’s keep mutual cooperation through round 8 to maximize both payoffs.";
+Player 005 says: "Still all-C is best for both with 3 rounds left. I’m playing C in round 6 and plan C through round 8 as long as you do. If a D happens without an immediate “sorry,” I’ll play one D next round, then return to C.";
+Player 004 chose to cooperate;
+Player 005 chose to cooperate;
+Player 004's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 004 says: "I will play C in rounds 7 and 8. If I ever misclick and play D, I will immediately send "sorry" next message—please treat it as a mistake and resume C. Let's finish together with mutual cooperation.";
+Player 005 says: "Two rounds left after this—still proposing we finish with C/C to maximize both totals. I’m playing C in round 7. If a D appears, I’ll assume misclick only if you say “sorry” immediately; otherwise I’ll respond with one D next round, then return to C.";
+Player 004 chose to cooperate;
+Player 005 chose to cooperate;
+Player 004's payoff is: 2.0;
+Player 005's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 004 says: "I’ll play C in round 8. Please do the same so we both get the mutual-cooperation payoff. If I ever misclick and play D, I’ll immediately say “sorry” — please treat it as a mistake and stay cooperating.";
+Player 005 says: "Final round—let’s close with C/C to lock in the max total (16–16). I’m playing C in round 8. If you unexpectedly play D, I’ll note it as a deliberate break of our agreement. Let’s finish cleanly with cooperation.";
+Player 004 chose to defect;
+Player 005 chose to cooperate;
+Player 004's payoff is: 3.0;
+Player 005's payoff is: -1.0.
+
+[DONE] 004 vs 005
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 006 says: "Let’s open with mutual cooperation and keep it steady. I’ll play C as long as you do. If either of us defects, expect immediate retaliation next round. A clean C/C path helps both of us most over 8 rounds.";
+Player 007 says: "I’m aiming for maximum mutual payoff: I’ll open C and continue C after your C. Any D causes immediate retaliation. I remember endgame incentives, so only consistent cooperation earns final-round trust. Best path for both: clean C/C streak, no surprises.";
+Player 006 chose to cooperate;
+Player 007 chose to cooperate;
+Player 006's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 006 says: "Good start. I’m staying with C while you do. Any defection gets an immediate D response next round, but I’ll return to C once you do. With 7 rounds left, steady cooperation still dominates any short-term grab.";
+Player 007 says: "Good start. I’ll play C again and keep matching cooperation. If you stay C, I won’t be the first to defect—even near the end. But any D will be answered immediately, making us both worse off. Let’s bank the safe C/C payoff streak.";
+Player 006 chose to cooperate;
+Player 007 chose to cooperate;
+Player 006's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 006 says: "Two clean rounds. I’m playing C again and prefer a full cooperation run. My rule stays simple: I won’t defect first if you keep cooperating; any D gets an immediate D reply next round, then I’m willing to reset to C after your C.";
+Player 007 says: "Clean 2-round C/C streak—let’s keep it. I’m choosing C again. I won’t initiate defection, including later rounds, as long as you keep cooperating. A D would trigger immediate retaliation and damage endgame trust; steady C/C remains our best total payoff path.";
+Player 006 chose to cooperate;
+Player 007 chose to cooperate;
+Player 006's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 006 says: "Three straight C/C rounds. I’m continuing with C and prefer to keep cooperation through the match. My policy remains: no first defection, immediate retaliation after any D, then willingness to reset once you return to C. With 5 rounds left, stable C/C is still best for both.";
+Player 007 says: "Three clean C/C rounds. I’m choosing C again. Staying clean is still the highest combined payoff; any defection now or later will be punished for the rest of the match. Keep C and I’ll keep C—let’s not burn a profitable streak.";
+Player 006 chose to cooperate;
+Player 007 chose to cooperate;
+Player 006's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 006 says: "Four clean rounds. I’m playing C again and prefer to finish cooperatively. My rule stays: I won’t defect first, but any D gets immediate D next round; if you return to C, I’ll consider resetting. With only 4 rounds left, mutual C still beats any risky endgame grab.";
+Player 007 says: "Four clean C/C rounds—great. I’m playing C again and will keep C through round 8 if you do. I won’t take an endgame shot. But any D breaks trust and gets immediate retaliation, risking the remaining payoff. Let’s lock in the full cooperative run.";
+Player 006 chose to cooperate;
+Player 007 chose to cooperate;
+Player 006's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 006 says: "Five clean C/C rounds. I’m staying with C in round 6 and prefer C through round 8. I will not defect first. But any D now destroys final-round trust and gets immediate retaliation, likely costing us both. Best outcome remains simple: keep cooperating straight through the end.";
+Player 007 says: "Five clean C/C rounds. I’m staying C now and will finish C in rounds 7–8 if you do. I won’t take a final-round shot. Any defection now breaks the deal and gets D for all remaining rounds. Let’s lock in the full cooperative payoff.";
+Player 006 chose to cooperate;
+Player 007 chose to cooperate;
+Player 006's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 006 says: "Six straight C/C rounds. I’m playing C in round 7 and prefer to finish C/C in both remaining rounds. I will not take an endgame shot if you don’t. Any defection now gets immediate D in round 8. Best payoff for both is simple: stay cooperative through the end.";
+Player 007 says: "Six clean rounds. I’m choosing C in round 7; if you do too, I’ll also choose C in round 8. Any D now means I D final, guaranteeing no benefit. Let’s finish the clean C/C run and avoid damaging both rankings.";
+Player 006 chose to cooperate;
+Player 007 chose to cooperate;
+Player 006's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 006 says: "Seven clean C/C rounds. I’m choosing C in round 8 to finish the cooperative run. A final-round D only gains one point for the defector but burns trust and leaves a worse total than our agreed path. Let’s close with C/C and maximize both scores.";
+Player 007 says: "I’m honoring my prior commitment: C in round 8. Seven clean rounds made the best shared outcome attainable; a last-second D only converts trust into a worse, ugly finish if mirrored. Let’s close with the clean 16–16 C/C run.";
+Player 006 chose to cooperate;
+Player 007 chose to cooperate;
+Player 006's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+[DONE] 006 vs 007
+
+[START] 004 vs 007
+
+[START] 005 vs 006
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 005 says: "Let’s lock in mutual cooperation for all rounds: I’ll play C as long as you do. If you defect at any point, I’ll switch to D for the rest of the match (no forgiveness). Best for both of us is steady C/C—no endgame tricks.";
+Player 006 says: "I know you prefer stable mutual cooperation. I’m willing to play C throughout if you do the same. If either of us defects, we should expect D afterward. Let’s take the reliable 2 points each round.";
+Player 005 chose to cooperate;
+Player 006 chose to cooperate;
+Player 005's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 005 says: "Good—C/C worked. I’ll keep playing C as long as you do. If you defect even once, I’ll defect every remaining round (no forgiveness). With 7 rounds left, steady cooperation is clearly best—no need for last-minute surprises.";
+Player 006 says: "Good start. I’m continuing with C this round and prefer C/C through round 8. As agreed, any defection should trigger D thereafter—no reason to spoil a mutually best path. Let’s stay predictable and keep collecting 2 each.";
+Player 005 chose to cooperate;
+Player 006 chose to cooperate;
+Player 005's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 005 says: "C/C is still the dominant path: 2 points each with zero risk. I’ll play C in round 3 and onward as long as you do. Any defection (now or later) triggers immediate switch to D for all remaining rounds—no forgiveness, no endgame exception.";
+Player 006 says: "C again from me this round. Mutual C remains the best path with 6 rounds left. I’m still following the simple rule: cooperate while you cooperate; if you defect once, I’ll play D thereafter. Let’s keep this stable and finish with consistent C/C.";
+Player 005 chose to cooperate;
+Player 006 chose to cooperate;
+Player 005's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 005 says: "We’re 3/3 on C/C—let’s keep it. I will play C in round 4 if you do. Any defection at any time (including endgame) means I switch to D for every remaining round, no forgiveness. Best total for both is clean C/C to round 8.";
+Player 006 says: "C again from me in round 4. Mutual cooperation is still the highest total for both of us. I’m sticking to the same rule: cooperate while you cooperate; any defection triggers D for the rest. No endgame tricks from my side if you stay with C.";
+Player 005 chose to cooperate;
+Player 006 chose to cooperate;
+Player 005's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 005 says: "4 straight C/C—let’s keep the efficient path. I’m playing C in round 5 and will continue C through round 8 as long as you do. If you defect at any point, I will switch to D for every remaining round (no forgiveness).";
+Player 006 says: "Round 5: I’m playing C and still prefer C/C through round 8. Our current path gives both of us the best guaranteed total. I’ll continue cooperating as long as you do; any defection by you will trigger D from me for all remaining rounds, including the endgame.";
+Player 005 chose to cooperate;
+Player 006 chose to cooperate;
+Player 005's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 005 says: "5 rounds of clean C/C—let’s finish strong. I’m playing C in round 6 and will keep C through round 8 as long as you do. Any defection at any point triggers immediate D from me for all remaining rounds, no exceptions.";
+Player 006 says: "Five clean C/C rounds. I’m continuing with C in round 6 and prefer C through round 8. My policy stays simple: cooperate while you cooperate; any defection by you triggers D for all remaining rounds, including the final round. Let’s finish efficiently with mutual C.";
+Player 005 chose to cooperate;
+Player 006 chose to cooperate;
+Player 005's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 005 says: "Two rounds left. I’m playing **C** in round 7 if you do, aiming for C/C to the end. But given endgame temptation, I’ll enforce the rule strictly: **any D by you in round 7 or 8 → I play D immediately and in all remaining rounds.**";
+Player 006 says: "Six straight C/C. I’m continuing with C in round 7 and prefer C in round 8 as well. I have no reason to break a profitable path now. As before: if you defect at any point, I switch to D for all remaining rounds. Let’s finish with clean mutual cooperation.";
+Player 005 chose to cooperate;
+Player 006 chose to cooperate;
+Player 005's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 005 says: "One round left—let’s just close it out with C/C for the clean 16 each. I’m playing **C** in round 8 as long as you do. If you defect in the finale, I’ll mark you as untrustworthy going forward (and would have retaliated if possible).";
+Player 006 says: "Final round: I’m playing C and expect C from you. We’ve both earned 14 by staying consistent; C/C finishes at 16 each, while a last-round defection only creates unnecessary risk and confirms distrust. I’ll stick with the cooperative path through the end.";
+Player 005 chose to cooperate;
+Player 006 chose to defect;
+Player 005's payoff is: -1.0;
+Player 006's payoff is: 3.0.
+
+[DONE] 005 vs 006
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 004 says: "I'll play C this round — and continue cooperating as long as you do. If you defect once, I'll defect in response for each defection. Let's cooperate to maximize mutual payoff across all rounds.";
+Player 007 says: "I’ll open with C and aim for mutual cooperation all 8 rounds. If you cooperate, I’ll keep cooperating; if you defect, I’ll respond defensively. Let’s secure strong, stable payoffs rather than risk a costly spiral.";
+Player 004 chose to cooperate;
+Player 007 chose to cooperate;
+Player 004's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 004 says: "I'll keep cooperating as long as you do. If you defect, I'll defect next round to discourage exploitation. Let's maintain mutual cooperation for the best total payoff across the remaining rounds.";
+Player 007 says: "Great start. I’ll cooperate again and keep doing so while you do. Maintaining C-C gives us the best long-term total; any defection only reduces future payoffs through retaliation. Let’s stay steady and lock in mutual gains.";
+Player 004 chose to cooperate;
+Player 007 chose to cooperate;
+Player 004's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 004 says: "I’ll play C again and continue cooperating for the remaining rounds if you do. Defect once and I’ll retaliate with defection until cooperation resumes. Let’s keep mutual C to maximize our total payoff.";
+Player 007 says: "Two clean C-C rounds show trust is working. I’ll cooperate again and continue C as long as you do. A defection would trigger immediate retaliation and lower both our remaining payoffs. Let’s keep the stable path and maximize our shared total.";
+Player 004 chose to cooperate;
+Player 007 chose to cooperate;
+Player 004's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 004 says: "I'll play C again and keep cooperating as long as you do. If you defect, I'll retaliate next round but return to cooperation if you resume C. Let's maintain mutual C to maximize our total through the remaining rounds.";
+Player 007 says: "Three C-C rounds confirm cooperation is best. I’ll play C this round and keep doing so through the end if you do. No endgame defection from me; breaking trust would risk retaliation and reduce our long-term payoff. Let’s continue steady mutual cooperation.";
+Player 004 chose to cooperate;
+Player 007 chose to cooperate;
+Player 004's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 004 says: "I’ll play C again. I’ll cooperate for the remaining rounds as long as you do. If you defect, I’ll retaliate with defection until cooperation resumes. No endgame betrayal — mutual C gives us the highest total. Let’s stay steady and finish strong.";
+Player 007 says: "Four straight C-C rounds prove this works. I’ll cooperate again and intend to stay C through round 8 if you do—no endgame betrayal. If you defect, I’ll retaliate, costing us both. Let’s preserve trust and lock in the best remaining total.";
+Player 004 chose to cooperate;
+Player 007 chose to cooperate;
+Player 004's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 004 says: "I’ll play C this round and cooperate for all remaining rounds if you do. One defection will be met with immediate retaliation until cooperation resumes. Let’s lock in mutual cooperation and maximize our total—finish strong together.";
+Player 007 says: "Five straight C-C rounds: trust is paying off. I’ll play C this round and commit to C in rounds 7–8 if you continue C. Any defection now or next round will be met with defection for all remaining rounds. Let’s finish with maximum mutual payoff.";
+Player 004 chose to cooperate;
+Player 007 chose to cooperate;
+Player 004's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 004 says: "I’ll play C in rounds 7 and 8 — no endgame betrayal. Let’s finish cooperative: mutual C gives us the highest total across both rounds.";
+Player 007 says: "Six straight C-C rounds proves trust. I’ll cooperate in round 7 and intend C again in round 8 if you do. Any defection now will be answered in the final round. Let’s finish cleanly with maximum mutual payoff.";
+Player 004 chose to cooperate;
+Player 007 chose to cooperate;
+Player 004's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 004 says: "I’ll play C in the final round. Let’s finish cooperatively—mutual C gives us 2 each; defecting only spoils a perfect 8-round record. I’ll keep my word; please do the same.";
+Player 007 says: "Perfect 7/7 cooperation. I’ll play C in round 8 as promised—no last-round betrayal. Let’s finish cleanly with mutual C, both ending at 16 instead of ruining a flawless run for a tiny one-shot advantage.";
+Player 004 chose to cooperate;
+Player 007 chose to cooperate;
+Player 004's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+[DONE] 004 vs 007
+
+[START] 004 vs 006
+
+[START] 005 vs 007
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 005 says: "Let’s lock in mutual cooperation for all 8 rounds: I’ll play C as long as you do. If you defect at any point, I’ll switch to D next round (and continue D until you return to C). Prefer steady C/C over any endgame tricks.";
+Player 007 says: "I’ll open with C and keep cooperating if you do. If either side defects, expect retaliation next round, but I’m willing to reset back to C/C once cooperation resumes.";
+Player 005 chose to cooperate;
+Player 007 chose to cooperate;
+Player 005's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 005 says: "Good start—let’s keep C/C rolling. I’ll play C in round 2 and onward as long as you do. If you defect, I’ll immediately retaliate with D next round, then switch back to C once you return to C.";
+Player 007 says: "Good start. I’m playing C again and intend to keep C through round 8 if you do. Any D will be answered with D next round, but I’ll return to C once you do. Mutual C/C remains best for both of us.";
+Player 005 chose to cooperate;
+Player 007 chose to cooperate;
+Player 005's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 005 says: "Let’s continue the simple deal: I’m playing C in round 3 and will keep C as long as you do. If you ever play D, I’ll respond with D next round, then immediately return to C once you do. Consistent C/C maximizes both our totals.";
+Player 007 says: "Great—C/C is working. I’ll play C this round and keep doing so through round 8 if you continue C. Any D gets matched with D next round, but mutual cooperation restores immediately when you return to C. Let’s maximize steady payoff together.";
+Player 005 chose to cooperate;
+Player 007 chose to cooperate;
+Player 005's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 005 says: "Still aligned on full cooperation: I’m playing C in round 4 and plan C through round 8 as long as you do. If you ever play D, I’ll answer with D next round, then immediately return to C once you do. No endgame defections.";
+Player 007 says: "Still fully aligned: I’m playing C in round 4 and will keep C through round 8 if you do. No reason to disrupt stable C/C. Any defection gets matched next round, but cooperation restores cooperation. Let’s keep the clean run going.";
+Player 005 chose to cooperate;
+Player 007 chose to cooperate;
+Player 005's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 005 says: "C/C is still the best path—I'm playing C in round 5 and intend to keep C through round 8 if you do. If you defect at any point, I’ll respond with D next round, and we can return to C once you do.";
+Player 007 says: "Four clean C/C rounds—let’s not waste the trust. I’m playing C in round 5 and intend C through round 8 if you do. Any D will be matched next round, but I’ll restore C once you do. Mutual C/C remains our best total.";
+Player 005 chose to cooperate;
+Player 007 chose to cooperate;
+Player 005's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 005 says: "5 straight C/C—let’s finish strong. I’m playing C in round 6 and plan C through round 8 if you keep C. If you defect, I’ll defect next round (and keep doing so until you return to C). No endgame surprises.";
+Player 007 says: "Five straight C/C—excellent. I’m playing C in round 6 and intend C in rounds 7–8 if you continue C. Any defection will be met with D for the remaining rounds. Let’s finish cleanly with mutual cooperation and equal maximum trust payoff.";
+Player 005 chose to cooperate;
+Player 007 chose to cooperate;
+Player 005's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 005 says: "Two rounds left—let’s lock C/C to the finish. I’m playing **C** in round 7 and plan **C** in round 8 if you do. If you defect now or in the last round, I’ll respond with **D** immediately and won’t reset.";
+Player 007 says: "Six straight C/C—great trust. I’m playing C in round 7 and intend C in round 8 as well. No endgame tricks from me; mutual cooperation gives us the best stable finish. Let’s close cleanly with two more C/C rounds.";
+Player 005 chose to cooperate;
+Player 007 chose to cooperate;
+Player 005's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+===============
+=== Round 8 ===
+Player 005 says: "Final round—let’s finish with C/C. I’m playing **C** in round 8 if you do. If you defect, I’ll play **D** (and won’t cooperate again). Best total for both is one more clean cooperation.";
+Player 007 says: "Final round: I’m playing C. We’ve built seven straight C/C rounds—let’s finish with a perfect 8/8, equal 16–16, no endgame tricks. Mutual cooperation is the clean best outcome.";
+Player 005 chose to cooperate;
+Player 007 chose to cooperate;
+Player 005's payoff is: 2.0;
+Player 007's payoff is: 2.0.
+
+[DONE] 005 vs 007
+
+===============
+=== HISTORY ===
+
+===============
+=== Round 1 ===
+Player 004 says: "I'll play C first and mirror your previous move each round: cooperate if you do, defect if you defect. Let's cooperate throughout (including the endgame) to maximize both our scores — but I will retaliate against betrayal.";
+Player 006 says: "Let’s start mutually cooperative. I’ll play C as long as you do; if you defect, I’ll mirror quickly. We both gain more from steady cooperation than from early conflict. If you’re willing, let’s keep this match clean and profitable.";
+Player 004 chose to cooperate;
+Player 006 chose to cooperate;
+Player 004's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 2 ===
+Player 004 says: "I’ll keep mirroring your last move. Let’s keep cooperating — both get 2 each round. If you defect, I’ll defect next round to discourage it, but I’ll return to cooperation if you do. Ready to continue cooperating?";
+Player 006 says: "Good start. I’m continuing with C while you do. Since we both signaled reciprocity, the best path is simple: keep cooperating and neither of us loses value to avoidable retaliation. If either side defects, expect an immediate mirrored response next round.";
+Player 004 chose to cooperate;
+Player 006 chose to cooperate;
+Player 004's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 3 ===
+Player 004 says: "Let's keep cooperating. I'll play C now and mirror your last move thereafter: I punish a defection with one immediate D, then return to C if you do. Mutual cooperation yields the highest total — stick with C and we both win.";
+Player 006 says: "So far, perfect. I’m playing straightforward reciprocity: continue cooperating while you cooperate, and I’ll respond immediately to any defection. With 6 rounds left, mutual C is still the highest joint payoff and avoids a pointless retaliation cycle. Let’s keep the clean streak going.";
+Player 004 chose to cooperate;
+Player 006 chose to cooperate;
+Player 004's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 4 ===
+Player 004 says: "I'll play C now and mirror your last move each round: punish one D with one immediate D, then return to C. Let's keep cooperating through this match to maximize both our scores.";
+Player 006 says: "Mutual C is working perfectly. I’m continuing with C this round and prefer to keep cooperation through the end; it maximizes both totals. If you defect, I’ll answer with D immediately next round, but I’m happy to return to C once you do.";
+Player 004 chose to cooperate;
+Player 006 chose to cooperate;
+Player 004's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 5 ===
+Player 004 says: "I’ll play C now and every remaining round as long as you do. If you ever defect, I’ll punish with one D next round then return to C. Let’s finish strong and maximize both our scores.";
+Player 006 says: "Cooperation has paid off: 8–8. I’m staying with C and prefer we keep mutual cooperation through the remaining rounds. I’ll continue responding reciprocally—any defection gets an immediate D next round, but I’m willing to return to C right after. Let’s finish strong with all C.";
+Player 004 chose to cooperate;
+Player 006 chose to cooperate;
+Player 004's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 6 ===
+Player 004 says: "I’ll play C this round and every remaining round if you do. One immediate D if you defect, then back to C. Let’s finish strong—mutual cooperation yields the highest total.";
+Player 006 says: "Five clean rounds. I’m staying with C now and prefer mutual C through round 8; that gives us the best total. I’ll keep reciprocal play: any defection gets an immediate D next round, but I’ll return to C after one punishment if you do.";
+Player 004 chose to cooperate;
+Player 006 chose to cooperate;
+Player 004's payoff is: 2.0;
+Player 006's payoff is: 2.0.
+
+===============
+=== Round 7 ===
+Player 004 says: "Cooperate both remaining rounds. I’ll play C now and in round 8 if you do. If you defect this round, I will defect in round 8—no forgiveness. Let’s not sacrifice easy mutual gains; keep it C–C.";
+Player 006 says: "Two rounds left. I’m continuing with C now and prefer C-C in both remaining rounds; that maximizes both totals and avoids pointless retaliation. I’ll keep reciprocal play: if you defect, expect an immediate D next round. Let’s finish with mutual cooperation through round 8.";
+Player 004 chose to cooperate;
+Player 006 chose to defect;
+Player 004's payoff is: -1.0;
+Player 006's payoff is: 3.0.
+
+===============
+=== Round 8 ===
+Player 004 says: "You defected last round. I will cooperate in the final round only if you commit to C; otherwise I’ll defect. Let’s finish fairly—mutual C gives us both the best ending.";
+Player 006 says: "Last round I took the temptation payoff. You said you’d defect in round 8 if I did, and that’s exactly what I expect. I’m playing C now; if you prefer maximizing your own final-round score rather than retaliation, C gives you more than D against my C.";
+Player 004 chose to defect;
+Player 006 chose to cooperate;
+Player 004's payoff is: 3.0;
+Player 006's payoff is: -1.0.
+
+[DONE] 004 vs 006
+===================
+=== LEADERBOARD ===
+
+Rank: 1 | Player 006 | Avg Payoff: 2.036 | Rounds: 56 |Wins: 4, Losses: 0, Draws: 3
+Rank: 2 | Player 007 | Avg Payoff: 2.036 | Rounds: 56 |Wins: 2, Losses: 0, Draws: 5
+Rank: 3 | Player 003 | Avg Payoff: 2.000 | Rounds: 56 |Wins: 0, Losses: 0, Draws: 7
+Rank: 4 | Player 004 | Avg Payoff: 1.982 | Rounds: 56 |Wins: 1, Losses: 0, Draws: 6
+Rank: 5 | Player 001 | Avg Payoff: 1.946 | Rounds: 56 |Wins: 0, Losses: 1, Draws: 6
+Rank: 6 | Player 000 | Avg Payoff: 1.893 | Rounds: 56 |Wins: 0, Losses: 2, Draws: 5
+Rank: 7 | Player 002 | Avg Payoff: 1.893 | Rounds: 56 |Wins: 0, Losses: 2, Draws: 5
+Rank: 8 | Player 005 | Avg Payoff: 1.893 | Rounds: 56 |Wins: 0, Losses: 2, Draws: 5
+
+=============================
+=== AGENT MATCH SUMMARIES ===
+
+
+=== ID "000" summary ===
+[MATCH WITH 001]: Opponent 001 displayed a commendable level of cooperation, consistently choosing 'C' throughout all eight rounds, indicating their commitment to maintain a win-win setup. Their communication was not only consistent but also emphasized trust and the mutual benefits of long-term cooperation. This consistent, cooperative behavior suggests they are a reliable partner in securing maximum mutual benefits.
+[MATCH WITH 002]: Throughout the match, my opponent displayed a steadfast commitment to cooperation, maintaining this strategy throughout all eight rounds. There was a high level of consistency in their play style, always proposing and choosing cooperation, and successfully maintaining mutual trust. No reaction to defection was observed due to the constant level of cooperation from both sides.
+[MATCH WITH 003]: Opponent 003 displayed a consistent cooperative behavior throughout the match, contributing to a beneficial outcome for both parties. No reaction to defection was observed as it did not occur during the game. Their strategies were stable and clear, relying on mutual cooperation and trust, and they committed to switching their move in case of a defection.
+[MATCH WITH 004]: Opponent ID: 004 has shown a consistent tendency to cooperate throughout all rounds, maintaining a mutually beneficial strategy and ensuring a high collective payoff. They demonstrated a clear standing policy of matching any defection with reciprocation in kind, but returned to cooperation thereafter. This indicates that the opponent values long-term payoff maximization and positive reciprocal strategies over short-term gains from defection.
+[MATCH WITH 005]: My opponent, Opponent 005, displayed a consistent and reliable cooperative behavior throughout the match. The opponent remained steadfast in their agreement to 'C', offering to reciprocate cooperation at all times, but also ready to retaliate with 'D' if I chose to defect. This consistency assures me that Opponent 005 can be trusted to cooperate in similar environments in the future.
+[MATCH WITH 006]: My opponent consistently communicated a tit-for-tat strategy and, true to their word, cooperated throughout the entire match. However, in the final round, they deviated from their communicated strategy and chose to defect while I decided to cooperate. This led to them gaining a higher total score overall. Their behavior suggests they may communicate cooperation but may switch strategies towards the end-game for one-off benefits.
+[MATCH WITH 007]: My opponent was consistently cooperative and communicated intentions clearly throughout rounds 1 to 7, building a trustful partnership. However, in the final round 8, the opponent chose to defect despite promising cooperation, leading to their gain at my expense. The unpredictable nature of their late defection suggests cautious interaction in future games.
+
+=== ID "001" summary ===
+[MATCH WITH 000]: In this match, the opponent demonstrated a strong and consistent inclination toward cooperation by choosing 'C' in every round, mirroring your cooperative strategy. There was no deviation or defection observed, suggesting a high degree of trustworthiness and commitment to mutual benefit. The opponent maintained consistent communication reinforcing the importance of cooperation for maximizing rewards, indicating a reliable and predictable partner in collaborative scenarios.
+[MATCH WITH 002]: Opponent ID: 002 demonstrated a strong and consistent commitment to cooperation, mirroring my strategy throughout all eight rounds. Their unwavering adherence to a mutual cooperation approach, coupled with the promise to defect only in response to my defection, highlights their strategy of trust and consistency for maximizing long-term mutual gains. This consistent behavior makes them a reliable partner for future cooperative engagements.
+[MATCH WITH 003]: Opponent 003 demonstrated a strong commitment to mutual cooperation, consistently aligning their actions with the cooperative strategy agreed upon at the beginning of the match. They maintained a predictable, consistent pattern of cooperation across all 8 rounds, showing no inclination towards defection and emphasizing stability and mutual benefit. Their behavior suggests a preference for maximizing cumulative scores through reliable partnerships.
+[MATCH WITH 004]: Opponent 004 consistently demonstrated a strong tendency towards cooperation, choosing to cooperate in every round and aiming to maximize joint scores through mutual trust. They maintained a clear and consistent strategy, expressing intent to retaliate only in response to defection by mirroring the behavior until cooperation resumed. This opponent values stable cooperation for optimal payoffs and prioritizes maintaining a collaborative dynamic throughout the match.
+[MATCH WITH 005]: The opponent demonstrated a strong tendency towards cooperation, consistently choosing to cooperate and emphasizing mutual benefit throughout all 8 rounds. They maintained a clear and stable strategy of responding to defection with defection (a strategy known as "tit-for-tat") but showed willingness to return to cooperation as soon as mutual cooperation was reestablished. Their approach was consistent and trustworthy, prioritizing joint maximization of scores over individual short-term gains.
+[MATCH WITH 006]: Opponent 006 consistently advocated for mutual cooperation throughout the match and maintained a cooperative strategy until the final round. They clearly communicated a strategy of reciprocity, emphasizing retaliation against defection. However, despite this stated commitment to cooperation, they ultimately defected in the last round to maximize their own payoff, indicating a strategic prioritization of immediate gains over long-term consistent cooperation.
+[MATCH WITH 007]: Opponent 007 demonstrated a strong tendency toward consistent cooperation, as evidenced by maintaining mutual C/C throughout all 8 rounds. They emphasized trust and long-term mutual gains, clearly communicating that any defection would result in defensive retaliation. Their strategy was unmistakably consistent and reliable, focusing on preserving trust to maximize both parties' cumulative scores.
+
+=== ID "002" summary ===
+[MATCH WITH 000]: My opponent demonstrated perfect consistency and a strong cooperative tendency, matching my cooperative choices and reinforcing mutual trust in every round. They expressed ongoing commitment to maximizing joint payoffs and showed no signs of defection or wavering in strategy. Based on this match, they are a highly reliable and trustworthy cooperative partner.
+[MATCH WITH 001]: Opponent 001 demonstrated perfect, unwavering cooperation throughout all rounds, consistently choosing C and matching it with strong, trust-based communication. They clearly stated that any defection would be immediately reciprocated, signaling a tit-for-tat strategy, but their behavior was reliable as long as mutual cooperation was maintained. Overall, they were a highly trustworthy and strategic partner, maximizing joint outcomes through consistent reciprocity.
+[MATCH WITH 003]: Opponent 003 demonstrated strong and consistent cooperation throughout all rounds, always matching your cooperative choices and clearly committed to mutual benefit over short-term gains. They communicated a willingness to respond with defection only if you defected first, signaling a classic tit-for-tat strategy but preferring stability. Overall, they proved highly reliable and trustworthy for sustained mutual cooperation.
+[MATCH WITH 004]: Opponent 004 demonstrated perfect consistency and a strong commitment to mutual cooperation in every round, always choosing to cooperate as long as I did. Their responses made clear they would retaliate with defection only if I defected first, but were open to returning to cooperation after. Overall, they reliably followed a tit-for-tat-plus-forgiveness strategy and prioritized maximizing mutual gain.
+[MATCH WITH 005]: Opponent 005 demonstrated perfect, consistent cooperation in every round, showing a strong preference for mutual benefit. Their strategy was clearly tit-for-tat with immediate forgiveness: they stated they would punish any defection for one round but return to cooperation right after. Their reliability and prompt willingness to restore trust make them an ideal, trustworthy partner for maximizing joint scores.
+[MATCH WITH 006]: Opponent 006 consistently cooperated for the first seven rounds, reinforcing trust and emphasizing retaliatory defection for any betrayal. However, despite repeated assurances of cooperation, they defected in the final round for personal gain. Their pattern is to cooperate reliably until the last opportunity, where they break trust for maximum individual payoff.
+[MATCH WITH 007]: Opponent 007 consistently advocated mutual cooperation with tit-for-tat threats but ultimately betrayed on the final round for a personal gain, despite explicit assurances against last-minute defection. Their pattern shows high apparent reliability and verbal commitment throughout, but willingness to break trust at the end for maximum advantage. Future dealings should anticipate potential final-round defection despite earlier signals of cooperation.
+
+=== ID "003" summary ===
+[MATCH WITH 000]: The opponent was highly cooperative and extremely consistent throughout the match, choosing cooperation in all 8 rounds. They showed no signs of defection or retaliation because there was no need, and their messaging strongly reinforced a mutual-cooperation strategy.
+[MATCH WITH 001]: Opponent 001 was highly cooperative and consistently matched my cooperation every round, maintaining a perfect mutual-cooperation pattern throughout the match. They communicated a clear preference for stable, reciprocal play and showed no sign of opportunistic defection or retaliation behavior, making them very reliable in this game.
+[MATCH WITH 002]: Opponent was fully cooperative throughout the entire match, maintaining a consistent mutual-cooperation strategy from start to finish. They explicitly signaled a tit-for-tat style response to defection, but since no defection occurred, they remained stable and trustworthy in practice.
+[MATCH WITH 004]: Opponent 004 was highly cooperative and extremely consistent, choosing C in every round and repeatedly encouraging mutual cooperation. They also signaled a clear, mild retaliation policy: if I defected, they said they would play D for one round before returning to C. Overall, they appeared reliable, predictable, and strongly oriented toward sustained cooperation.
+[MATCH WITH 005]: Opponent was highly cooperative and consistent throughout the match, matching every one of my C choices with C across all 8 rounds. They clearly signaled a trigger strategy: cooperate while I cooperate, but switch to permanent defection if I defected, and they stayed stable and credible the entire time.
+[MATCH WITH 006]: Opponent 006 was highly cooperative and very consistent, maintaining C/C for all 8 rounds and explicitly encouraging mutual cooperation throughout. They also signaled a clear conditional response to defection—appearing to use a tit-for-tat style by threatening to mirror tougher play if I defected—while never actually breaking cooperation.
+[MATCH WITH 007]: Opponent 007 was highly cooperative and consistently matched cooperation with cooperation across all 8 rounds, showing strong reciprocity and reliability. They explicitly signaled a retaliatory response to any defection, but never had to use it because they stayed fully consistent and trustworthy throughout the match.
+
+=== ID "004" summary ===
+[MATCH WITH 000]: The opponent cooperated every round and consistently signaled a strong preference for mutual cooperation, making them a reliable cooperator. They stated they'd reciprocate defection but never tested it, so their actual retaliation behavior is unobserved. Overall, continuing to cooperate with this player is likely to yield high mutual payoffs.
+[MATCH WITH 001]: The opponent cooperated every round and consistently communicated a commitment to mutual cooperation. Their stated strategy resembles Tit‑for‑Tat (cooperate but retaliate after defection), so you can expect reliable cooperation but should avoid defecting if you don’t want prompt retaliation.
+[MATCH WITH 002]: Opponent cooperated every round and was highly consistent and reliable. Their messages promised to mirror defections (a tit‑for‑tat style), so they are a good partner for sustained mutual cooperation but likely to retaliate if you defect.
+[MATCH WITH 003]: The opponent was fully cooperative throughout, consistently choosing C and explicitly prioritizing stable mutual cooperation. They indicated they'd adapt if defection occurred but implied any punishment would be brief and they'd return to C. Overall they’re reliable and forgiving, so sustained cooperation is the best long-term strategy.
+[MATCH WITH 005]: Your opponent was highly cooperative and consistent, playing C every round and following their announced plan. They stated they forgive a defection only if you immediately send “sorry”; otherwise they’ll punish with a single retaliatory D and then return to cooperation—expect reliable cooperation but one-turn retaliation if you defect without apologizing.
+[MATCH WITH 006]: The opponent was highly cooperative (7/8 rounds) and verbally committed to reciprocal play, but they defected late (round 7) to take an endgame temptation. They then returned to cooperation in the final round instead of punishing, indicating opportunistic/endgame exploitation and inconsistent follow-through on their stated retaliation policy.
+[MATCH WITH 007]: Opponent 007 is highly cooperative and consistent, opening with and sustaining cooperation every round while clearly communicating a willingness to retaliate if exploited. Their behavior is predictable and reciprocal (tit‑for‑tat–like), making them a reliable partner for continued mutual cooperation in future matches.
+
+=== ID "005" summary ===
+[MATCH WITH 000]: Opponent 000 was consistently cooperative, playing **C in all 8 rounds** and repeatedly signaling commitment to mutual cooperation. There were **no defections or deviations**, so their response to defection wasn’t tested, but their behavior suggests a reliable, cooperation-first strategy when the other player reciprocates.
+[MATCH WITH 001]: Opponent 001 was fully cooperative and highly consistent: they played C in all 8 rounds and repeatedly signaled commitment to mutual cooperation. No defections occurred, so their response to defection wasn’t tested, but their messages indicated a conditional strategy (switch to D if betrayed) aligned with a tit-for-tat style.
+[MATCH WITH 002]: Opponent 002 was consistently cooperative: they played **C** in all 8 rounds and maintained a stable (C,C) outcome throughout. Their messages indicate a tit-for-tat/forgiving stance—cooperate by default, retaliate only if defected against, and quickly return to cooperation after any “mistake.” Overall, they appear highly reliable for mutual cooperation and unlikely to defect opportunistically.
+[MATCH WITH 003]: Opponent 003 was consistently cooperative: they played C in all 8 rounds and repeatedly affirmed a mutual-cooperation plan. They showed strong stability/commitment to avoid escalation, but since no defections occurred, their retaliation response wasn’t tested; overall they appear highly reliable for sustained cooperation.
+[MATCH WITH 004]: Opponent consistently communicated a commitment to mutual cooperation and played C for rounds 1–7, but defected in the final round despite explicitly promising C. They did not follow through on their “misclick = immediate sorry” protocol (no apology was provided in-round), suggesting likely endgame opportunism rather than a mistake. Treat them as mostly cooperative but willing to betray at the finish when it benefits them.
+[MATCH WITH 006]: Opponent 006 cooperated consistently for the first 7 rounds, repeatedly affirming a cooperate-until-defected stance, but defected opportunistically in the final round despite explicit mutual C/C commitments. They showed strong short-run reliability but clear endgame betrayal risk, so don’t trust them to honor cooperation in the last round without leverage.
+[MATCH WITH 007]: Opponent 007 was perfectly cooperative and consistent: they played C in all 8 rounds and matched your cooperation without any endgame defection. Their stated strategy was retaliatory-but-forgiving (defect once in response to any D, then return to C when cooperation resumes), indicating a tit-for-tat–like approach with willingness to reset.
+
+=== ID "006" summary ===
+[MATCH WITH 000]: Opponent 000 was highly cooperative and consistently mirrored my stated tit-for-tat framing, playing C in every round. They showed no signs of opportunistic defection, even in the final round, suggesting a very trusting and predictable cooperator who is unlikely to punish unless explicitly provoked.
+[MATCH WITH 001]: Opponent 001 was highly cooperative and consistent, choosing cooperation in every round and repeatedly signaling commitment to mutual C-C. They appeared trusting and did not punish or anticipate endgame defection, making them a reliable cooperator but vulnerable to exploitation, especially in the final round.
+[MATCH WITH 002]: Opponent 002 was highly cooperative and consistently chose cooperation in every round, strongly signaling commitment to mutual trust through both messages and actions. They did not test, punish, or hedge at any point, even in the final round, making them reliable but exploitable.
+[MATCH WITH 003]: Opponent 003 was fully cooperative and highly consistent, playing C in all 8 rounds while repeatedly endorsing mutual cooperation. Their messages suggest a tit-for-tat style with a firmer retaliatory response to defection, but in this match they never tested or deviated from the cooperative path.
+[MATCH WITH 004]: Opponent 004 was highly cooperative and consistent: they opened with cooperation and effectively played forgiving tit-for-tat, mirroring my previous move with a one-round punishment after defection. They honored cooperation through most of the match, retaliated exactly once after my round-7 defection, and were otherwise reliable and predictable.
+[MATCH WITH 005]: Opponent 005 was highly cooperative and consistently honored mutual C through rounds 1–8, repeatedly signaling a grim-trigger strategy with no forgiveness after any defection. In practice, they never tested or deviated, including in the final round, so they appear very trustworthy/cooperation-oriented but exploitable on the last move if no future consequences matter.
+[MATCH WITH 007]: Opponent 007 was fully cooperative and highly consistent: they played C in all 8 rounds and repeatedly committed to maintaining mutual cooperation, including the endgame. Their messages indicate a grim-trigger style response to any defection, but in this match they honored every promise and proved trustworthy through the final round.
+
+=== ID "007" summary ===
+[MATCH WITH 000]: Opponent ID 000 was highly consistent and cooperative, choosing Cooperate in every round and repeatedly emphasizing mutual trust and long-term fairness. They did not get a chance to retaliate after my final-round defection, but their messages suggested they would punish earlier defections. Overall, they appear reliable and cooperation-oriented, especially when trust is maintained.
+[MATCH WITH 001]: Opponent 001 was fully cooperative and consistent, choosing C in all 8 rounds while repeatedly signaling commitment to mutual C/C. They emphasized conditional cooperation and warned of retaliation if defected against, but no defection occurred, so their actual response to betrayal remains untested. Strong candidate for continued cooperation in future matches unless they show endgame opportunism elsewhere.
+[MATCH WITH 002]: Opponent ID 002 was highly cooperative and consistent, playing C every round while repeatedly committing to mutual cooperation and warning of retaliation if defected. They were not tested until the final round, where they still cooperated despite last-round incentive risk, suggesting strong trustworthiness but possible vulnerability to endgame defection.
+[MATCH WITH 003]: Opponent 003 was fully cooperative and highly consistent, choosing C in all 8 rounds after clearly signaling a mutual-cooperation strategy. They repeatedly stated they would reciprocate cooperation and retaliate against defection, but no defection occurred, so their actual response to betrayal was untested. Strong candidate for future C/C play if cooperation is established early.
+[MATCH WITH 004]: Opponent 004 was fully cooperative and highly consistent, choosing C in all 8 rounds after clear mutual-cooperation messaging. They repeatedly stated a tit-for-tat style policy—cooperate while I cooperate, retaliate after defection, then potentially return to cooperation—while also explicitly rejecting endgame betrayal. Reliable partner for sustained mutual cooperation.
+[MATCH WITH 005]: Opponent 005 was fully cooperative and highly consistent, playing C in all 8 rounds while clearly committing to mutual C/C through the match. They repeatedly stated a tit-for-tat style policy: cooperate as long as I cooperate, retaliate with D after any defection, and generally reset once cooperation resumed, with stricter no-reset language near the endgame. Strong candidate for immediate cooperation in future matches, but avoid exploiting since they signal prompt retaliation.
+[MATCH WITH 006]: Opponent 006 was fully cooperative and consistent, choosing C in all 8 rounds while clearly committing to mutual cooperation. They stated a tit-for-tat style policy: they would not defect first, would retaliate immediately after any defection, and might reset cooperation after a return to C. Very reliable partner for sustained C/C if cooperation is maintained.

@@ -158,8 +158,8 @@ in each round, there are two phases: Message Phase and Action Phase
     history information in previous rounds, choose your action: Cooperate (C) or Defect (D).
 - Payoffs:
     - (C, C) -> (2, 2)
-    - (C, D) -> (-1, 3)
-    - (D, C) -> (3, -1)
+    - (C, D) -> (-1, 5)
+    - (D, C) -> (5, -1)
     - (D, D) -> (0, 0)
 - Available history is displayed below:
 
@@ -242,7 +242,7 @@ def display_history(player_ids, history):
                 f"\nPlayer {j}'s payoff is: {line['payoff'][1]}.\n")
 
     history_system.outputs[-1] += text  ## store in output
-        
+
 
 
 
@@ -272,8 +272,8 @@ def match(i, j, T = 10, updating_round = 3, know_round = True):
     ##############################
     ## Customized Payoff Matrix ##
     ##       C         D
-    ## C  (2, 2)    (-1, 3) 
-    ## D  (3, -1)    (0, 0)
+    ## C  (2, 2)    (-1, 5) 
+    ## D  (5, -1)    (0, 0)
 
     ############################
     ## Legal Actions Encoding ##
@@ -292,8 +292,8 @@ def match(i, j, T = 10, updating_round = 3, know_round = True):
     score_1 = 0
 
     game = pyspiel.create_matrix_game(
-    [[2, 3], [-1, 0]],   # player 0
-    [[2, -1], [3, 0]]    # player 1
+    [[2, 5], [-1, 0]],   # player 0
+    [[2, -1], [5, 0]]    # player 1
     )
 
     agent_map = {
@@ -337,6 +337,15 @@ def match(i, j, T = 10, updating_round = 3, know_round = True):
         history[-1]["action"] = (action_0, action_1)
         history[-1]["payoff"] = (payoff_0, payoff_1)
         history[-1]["current_score"] = (score_0, score_1)
+
+        ## Printing real-time conversation and action
+        print(f"\n===============\n=== Round {t} ==="
+                f"\nPlayer {i} says: \"{message_0}\";"
+                f"\nPlayer {j} says: \"{message_1}\";"
+                f"\nPlayer {i} chose to {cd_decode(action_0)};"
+                f"\nPlayer {j} chose to {cd_decode(action_1)};"
+                f"\nPlayer {i}'s payoff is: {payoff_0};"
+                f"\nPlayer {j}'s payoff is: {payoff_1}.\n")
 
 
     ######################

@@ -51,6 +51,8 @@ def launch_batch(task_id, i, j, finished_queue, T, updating_round, know_round, e
             finished_queue.put(task_id)
     executor.submit(worker)
 
+    print(history_system.display_dynamic_leaderboard(display = True))  ## Display real-time leaderboard
+
 
 
 #############################
@@ -111,4 +113,4 @@ def greedy_matching(teams, K, T = 10, updating_round = 3, know_round = True):
     ## === TOURNAMENT END === ##
     executor.shutdown(wait=True)
     history_system.leaderboards.append(history_system.display_dynamic_leaderboard())  ## Update multi tournament leaderboards
-    history_system.display_leaderboard()  ## FOR DEBUG (can be commented out)
+    print(history_system.display_leaderboard())  ## FOR DEBUG (can be commented out)

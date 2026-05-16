@@ -172,7 +172,7 @@ def update_ranking():
 
 
 ## Display real-time leaderboard to a pair of agents when a single match starts
-def display_dynamic_leaderboard():
+def display_dynamic_leaderboard(display = False):
     global global_ranking, agent_stats
     text = ""
 
@@ -189,7 +189,11 @@ def display_dynamic_leaderboard():
     for id, avg in filtered_ranking:
         stats = agent_stats[id]
         rank = stats["rank"]
-        text += f"Rank: {rank} | Player {id} | Wins: {stats['wins']}, Losses: {stats['losses']}, Draws: {stats['draws']}\n"
+        if display:
+            text += (f"Rank: {rank} | Player {id} | Avg Payoff: {stats['average_payoff']:.3f} | Rounds: {stats['total_rounds']} |" 
+                f"Wins: {stats['wins']}, Losses: {stats['losses']}, Draws: {stats['draws']}\n")
+        else:
+            text += f"Rank: {rank} | Player {id} | Wins: {stats['wins']}, Losses: {stats['losses']}, Draws: {stats['draws']}\n"
 
     return text
 
@@ -218,6 +222,8 @@ def display_leaderboard():
 
     ## --- store in output ---
     outputs[-1] += text
+
+    return text
 
 
 

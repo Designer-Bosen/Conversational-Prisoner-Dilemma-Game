@@ -7,17 +7,12 @@ import match
 import matching_algorithm
 
 
-##########################
-## === Single Match === ##
-# match.match("006", "007", T=3)
-
-
 
 ###############################
 ## === Single Tournament === ##
 
 ## PARAMETERS
-# teams = ["000", "001"]
+# teams = ["006", "007"]
 # K = 2
 # T = 5
 
@@ -30,10 +25,11 @@ import matching_algorithm
 ## === Multi-Tournament === ##
 
 ## PARAMETERS
-teams = ["000", "001", "002", "003", "004", "005", "006", "007"]
+# teams = ["000", "001", "002", "003", "004", "005", "006", "007"]
+teams = ["004", "006", "007"]
 K = 2
 T = 8
-tournaments = 3
+tournaments = 1
 
 
 history_system.initialize_cross_tournament(teams)
